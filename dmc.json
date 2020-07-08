@@ -1,0 +1,4088 @@
+{
+    "f0eada": {
+        "name": "Ecru",
+        "number": "Ecru",
+        "rgb": [
+            240,
+            234,
+            218
+        ]
+    },
+    "ffffff": {
+        "name": "Snow White",
+        "number": "B5200",
+        "rgb": [
+            255,
+            255,
+            255
+        ]
+    },
+    "fcfbf8": {
+        "name": "White",
+        "number": "White",
+        "rgb": [
+            252,
+            251,
+            248
+        ]
+    },
+    "ab0249": {
+        "name": "Dusty Rose Ult Vy Dk",
+        "number": 150,
+        "rgb": [
+            171,
+            2,
+            73
+        ]
+    },
+    "f0ced4": {
+        "name": "Dusty Rose Vry Lt",
+        "number": 151,
+        "rgb": [
+            240,
+            206,
+            212
+        ]
+    },
+    "e2a099": {
+        "name": "Shell Pink Med Light",
+        "number": 152,
+        "rgb": [
+            226,
+            160,
+            153
+        ]
+    },
+    "e6ccd9": {
+        "name": "Violet Very Light",
+        "number": 153,
+        "rgb": [
+            230,
+            204,
+            217
+        ]
+    },
+    "572433": {
+        "name": "Grape Very Dark",
+        "number": 154,
+        "rgb": [
+            87,
+            36,
+            51
+        ]
+    },
+    "9891b6": {
+        "name": "Blue Violet Med Dark",
+        "number": 155,
+        "rgb": [
+            152,
+            145,
+            182
+        ]
+    },
+    "a3aed1": {
+        "name": "Blue Violet Med Lt",
+        "number": 156,
+        "rgb": [
+            163,
+            174,
+            209
+        ]
+    },
+    "bbc3d9": {
+        "name": "Cornflower Blue Vy Lt",
+        "number": 157,
+        "rgb": [
+            187,
+            195,
+            217
+        ]
+    },
+    "4c526e": {
+        "name": "Cornflower Blu M V D",
+        "number": 158,
+        "rgb": [
+            76,
+            82,
+            110
+        ]
+    },
+    "c7cad7": {
+        "name": "Blue Gray Light",
+        "number": 159,
+        "rgb": [
+            199,
+            202,
+            215
+        ]
+    },
+    "999fb7": {
+        "name": "Blue Gray Medium",
+        "number": 160,
+        "rgb": [
+            153,
+            159,
+            183
+        ]
+    },
+    "7880a4": {
+        "name": "Blue Gray",
+        "number": 161,
+        "rgb": [
+            120,
+            128,
+            164
+        ]
+    },
+    "dbecf5": {
+        "name": "Blue Ultra Very Light",
+        "number": 162,
+        "rgb": [
+            219,
+            236,
+            245
+        ]
+    },
+    "4d8361": {
+        "name": "Celadon Green Md",
+        "number": 163,
+        "rgb": [
+            77,
+            131,
+            97
+        ]
+    },
+    "c8d8b8": {
+        "name": "Forest Green Lt",
+        "number": 164,
+        "rgb": [
+            200,
+            216,
+            184
+        ]
+    },
+    "eff4a4": {
+        "name": "Moss Green Vy Lt",
+        "number": 165,
+        "rgb": [
+            239,
+            244,
+            164
+        ]
+    },
+    "c0c840": {
+        "name": "Moss Green Md Lt",
+        "number": 166,
+        "rgb": [
+            192,
+            200,
+            64
+        ]
+    },
+    "a77c49": {
+        "name": "Yellow Beige V Dk",
+        "number": 167,
+        "rgb": [
+            167,
+            124,
+            73
+        ]
+    },
+    "d1d1d1": {
+        "name": "Pewter Very Light",
+        "number": 168,
+        "rgb": [
+            209,
+            209,
+            209
+        ]
+    },
+    "848484": {
+        "name": "Pewter Light",
+        "number": 169,
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    "835b8b": {
+        "name": "Lavender Very Dark",
+        "number": 208,
+        "rgb": [
+            131,
+            91,
+            139
+        ]
+    },
+    "a37ba7": {
+        "name": "Lavender Dark",
+        "number": 209,
+        "rgb": [
+            163,
+            123,
+            167
+        ]
+    },
+    "c39fc3": {
+        "name": "Lavender Medium",
+        "number": 210,
+        "rgb": [
+            195,
+            159,
+            195
+        ]
+    },
+    "e3cbe3": {
+        "name": "Lavender Light",
+        "number": 211,
+        "rgb": [
+            227,
+            203,
+            227
+        ]
+    },
+    "883e43": {
+        "name": "Shell Pink Vy Dk",
+        "number": 221,
+        "rgb": [
+            136,
+            62,
+            67
+        ]
+    },
+    "cc847c": {
+        "name": "Shell Pink Light",
+        "number": 223,
+        "rgb": [
+            204,
+            132,
+            124
+        ]
+    },
+    "ebb7af": {
+        "name": "Shell Pink Very Light",
+        "number": 224,
+        "rgb": [
+            235,
+            183,
+            175
+        ]
+    },
+    "ffdfd5": {
+        "name": "Shell Pink Ult Vy Lt",
+        "number": 225,
+        "rgb": [
+            255,
+            223,
+            213
+        ]
+    },
+    "6f2f00": {
+        "name": "Mahogany Vy Dk",
+        "number": 300,
+        "rgb": [
+            111,
+            47,
+            0
+        ]
+    },
+    "b35f2b": {
+        "name": "Mahogany Med",
+        "number": 301,
+        "rgb": [
+            179,
+            95,
+            43
+        ]
+    },
+    "b71f33": {
+        "name": "Red Medium",
+        "number": 304,
+        "rgb": [
+            183,
+            31,
+            51
+        ]
+    },
+    "fded54": {
+        "name": "Lemon",
+        "number": 307,
+        "rgb": [
+            253,
+            237,
+            84
+        ]
+    },
+    "564a4a": {
+        "name": "Rose Dark",
+        "number": 309,
+        "rgb": [
+            86,
+            74,
+            74
+        ]
+    },
+    "000000": {
+        "name": "Black",
+        "number": 310,
+        "rgb": [
+            0,
+            0,
+            0
+        ]
+    },
+    "1c5066": {
+        "name": "Wedgewood Ult VyDk",
+        "number": 311,
+        "rgb": [
+            28,
+            80,
+            102
+        ]
+    },
+    "35668b": {
+        "name": "Baby Blue Very Dark",
+        "number": 312,
+        "rgb": [
+            53,
+            102,
+            139
+        ]
+    },
+    "814952": {
+        "name": "Antique Mauve Md Dk",
+        "number": 315,
+        "rgb": [
+            129,
+            73,
+            82
+        ]
+    },
+    "b7737f": {
+        "name": "Antique Mauve Med",
+        "number": 316,
+        "rgb": [
+            183,
+            115,
+            127
+        ]
+    },
+    "6c6c6c": {
+        "name": "Pewter Gray",
+        "number": 317,
+        "rgb": [
+            108,
+            108,
+            108
+        ]
+    },
+    "ababab": {
+        "name": "Steel Gray Lt",
+        "number": 318,
+        "rgb": [
+            171,
+            171,
+            171
+        ]
+    },
+    "205f2e": {
+        "name": "Pistachio Grn Vy Dk",
+        "number": 319,
+        "rgb": [
+            32,
+            95,
+            46
+        ]
+    },
+    "69885a": {
+        "name": "Pistachio Green Med",
+        "number": 320,
+        "rgb": [
+            105,
+            136,
+            90
+        ]
+    },
+    "c72b3b": {
+        "name": "Red",
+        "number": 321,
+        "rgb": [
+            199,
+            43,
+            59
+        ]
+    },
+    "5a8fb8": {
+        "name": "Baby Blue Dark",
+        "number": 322,
+        "rgb": [
+            90,
+            143,
+            184
+        ]
+    },
+    "b33b4b": {
+        "name": "Rose Very Dark",
+        "number": 326,
+        "rgb": [
+            179,
+            59,
+            75
+        ]
+    },
+    "633666": {
+        "name": "Violet Dark",
+        "number": 327,
+        "rgb": [
+            99,
+            54,
+            102
+        ]
+    },
+    "5c5478": {
+        "name": "Blue Violet Very Dark",
+        "number": 333,
+        "rgb": [
+            92,
+            84,
+            120
+        ]
+    },
+    "739fc1": {
+        "name": "Baby Blue Medium",
+        "number": 334,
+        "rgb": [
+            115,
+            159,
+            193
+        ]
+    },
+    "ee546e": {
+        "name": "Rose",
+        "number": 335,
+        "rgb": [
+            238,
+            84,
+            110
+        ]
+    },
+    "253b73": {
+        "name": "Navy Blue",
+        "number": 336,
+        "rgb": [
+            37,
+            59,
+            115
+        ]
+    },
+    "ada7c7": {
+        "name": "Blue Violet Medium",
+        "number": 340,
+        "rgb": [
+            173,
+            167,
+            199
+        ]
+    },
+    "b7bfdd": {
+        "name": "Blue Violet Light",
+        "number": 341,
+        "rgb": [
+            183,
+            191,
+            221
+        ]
+    },
+    "bf2d2d": {
+        "name": "Salmon Very Dark",
+        "number": 347,
+        "rgb": [
+            191,
+            45,
+            45
+        ]
+    },
+    "d21035": {
+        "name": "Coral Dark",
+        "number": 349,
+        "rgb": [
+            210,
+            16,
+            53
+        ]
+    },
+    "e04848": {
+        "name": "Coral Medium",
+        "number": 350,
+        "rgb": [
+            224,
+            72,
+            72
+        ]
+    },
+    "e96a67": {
+        "name": "Coral",
+        "number": 351,
+        "rgb": [
+            233,
+            106,
+            103
+        ]
+    },
+    "fd9c97": {
+        "name": "Coral Light",
+        "number": 352,
+        "rgb": [
+            253,
+            156,
+            151
+        ]
+    },
+    "fed7cc": {
+        "name": "Peach",
+        "number": 353,
+        "rgb": [
+            254,
+            215,
+            204
+        ]
+    },
+    "984436": {
+        "name": "Terra Cotta Dark",
+        "number": 355,
+        "rgb": [
+            152,
+            68,
+            54
+        ]
+    },
+    "c56a5b": {
+        "name": "Terra Cotta Med",
+        "number": 356,
+        "rgb": [
+            197,
+            106,
+            91
+        ]
+    },
+    "617a52": {
+        "name": "Pistachio Green Dk",
+        "number": 367,
+        "rgb": [
+            97,
+            122,
+            82
+        ]
+    },
+    "a6c298": {
+        "name": "Pistachio Green Lt",
+        "number": 368,
+        "rgb": [
+            166,
+            194,
+            152
+        ]
+    },
+    "d7edcc": {
+        "name": "Pistachio Green Vy Lt",
+        "number": 369,
+        "rgb": [
+            215,
+            237,
+            204
+        ]
+    },
+    "b89d64": {
+        "name": "Mustard Medium",
+        "number": 370,
+        "rgb": [
+            184,
+            157,
+            100
+        ]
+    },
+    "bfa671": {
+        "name": "Mustard",
+        "number": 371,
+        "rgb": [
+            191,
+            166,
+            113
+        ]
+    },
+    "ccb784": {
+        "name": "Mustard Lt",
+        "number": 372,
+        "rgb": [
+            204,
+            183,
+            132
+        ]
+    },
+    "8f430f": {
+        "name": "Mahogany Dark",
+        "number": 400,
+        "rgb": [
+            143,
+            67,
+            15
+        ]
+    },
+    "f7a777": {
+        "name": "Mahogany Vy Lt",
+        "number": 402,
+        "rgb": [
+            247,
+            167,
+            119
+        ]
+    },
+    "bb8161": {
+        "name": "Desert Sand Med",
+        "number": 407,
+        "rgb": [
+            187,
+            129,
+            97
+        ]
+    },
+    "565656": {
+        "name": "Pewter Gray Dark",
+        "number": 413,
+        "rgb": [
+            86,
+            86,
+            86
+        ]
+    },
+    "8c8c8c": {
+        "name": "Steel Gray Dk",
+        "number": 414,
+        "rgb": [
+            140,
+            140,
+            140
+        ]
+    },
+    "d3d3d6": {
+        "name": "Pearl Gray",
+        "number": 415,
+        "rgb": [
+            211,
+            211,
+            214
+        ]
+    },
+    "a07042": {
+        "name": "Hazelnut Brown Dk",
+        "number": 420,
+        "rgb": [
+            160,
+            112,
+            66
+        ]
+    },
+    "c69f7b": {
+        "name": "Hazelnut Brown Lt",
+        "number": 422,
+        "rgb": [
+            198,
+            159,
+            123
+        ]
+    },
+    "7a451f": {
+        "name": "Brown Med",
+        "number": 433,
+        "rgb": [
+            122,
+            69,
+            31
+        ]
+    },
+    "985e33": {
+        "name": "Brown Light",
+        "number": 434,
+        "rgb": [
+            152,
+            94,
+            51
+        ]
+    },
+    "b87748": {
+        "name": "Brown Very Light",
+        "number": 435,
+        "rgb": [
+            184,
+            119,
+            72
+        ]
+    },
+    "cb9051": {
+        "name": "Tan",
+        "number": 436,
+        "rgb": [
+            203,
+            144,
+            81
+        ]
+    },
+    "e4bb8e": {
+        "name": "Tan Light",
+        "number": 437,
+        "rgb": [
+            228,
+            187,
+            142
+        ]
+    },
+    "ffd600": {
+        "name": "Lemon Dark",
+        "number": 444,
+        "rgb": [
+            255,
+            214,
+            0
+        ]
+    },
+    "fffb8b": {
+        "name": "Lemon Light",
+        "number": 445,
+        "rgb": [
+            255,
+            251,
+            139
+        ]
+    },
+    "917b73": {
+        "name": "Shell Gray Dark",
+        "number": 451,
+        "rgb": [
+            145,
+            123,
+            115
+        ]
+    },
+    "c0b3ae": {
+        "name": "Shell Gray Med",
+        "number": 452,
+        "rgb": [
+            192,
+            179,
+            174
+        ]
+    },
+    "d7cecb": {
+        "name": "Shell Gray Light",
+        "number": 453,
+        "rgb": [
+            215,
+            206,
+            203
+        ]
+    },
+    "72843c": {
+        "name": "Avocado Green",
+        "number": 469,
+        "rgb": [
+            114,
+            132,
+            60
+        ]
+    },
+    "94ab4f": {
+        "name": "Avocado Grn Lt",
+        "number": 470,
+        "rgb": [
+            148,
+            171,
+            79
+        ]
+    },
+    "aebf79": {
+        "name": "Avocado Grn V Lt",
+        "number": 471,
+        "rgb": [
+            174,
+            191,
+            121
+        ]
+    },
+    "d8e498": {
+        "name": "Avocado Grn U Lt",
+        "number": 472,
+        "rgb": [
+            216,
+            228,
+            152
+        ]
+    },
+    "a7132b": {
+        "name": "Red Dark",
+        "number": 498,
+        "rgb": [
+            167,
+            19,
+            43
+        ]
+    },
+    "044d33": {
+        "name": "Blue Green Vy Dk",
+        "number": 500,
+        "rgb": [
+            4,
+            77,
+            51
+        ]
+    },
+    "396f52": {
+        "name": "Blue Green Dark",
+        "number": 501,
+        "rgb": [
+            57,
+            111,
+            82
+        ]
+    },
+    "5b9071": {
+        "name": "Blue Green",
+        "number": 502,
+        "rgb": [
+            91,
+            144,
+            113
+        ]
+    },
+    "7bac94": {
+        "name": "Blue Green Med",
+        "number": 503,
+        "rgb": [
+            123,
+            172,
+            148
+        ]
+    },
+    "c4decc": {
+        "name": "Blue Green Vy Lt",
+        "number": 504,
+        "rgb": [
+            196,
+            222,
+            204
+        ]
+    },
+    "338362": {
+        "name": "Jade Green",
+        "number": 505,
+        "rgb": [
+            51,
+            131,
+            98
+        ]
+    },
+    "3b768f": {
+        "name": "Wedgewood Dark",
+        "number": 517,
+        "rgb": [
+            59,
+            118,
+            143
+        ]
+    },
+    "4f93a7": {
+        "name": "Wedgewood Light",
+        "number": 518,
+        "rgb": [
+            79,
+            147,
+            167
+        ]
+    },
+    "7eb1c8": {
+        "name": "Sky Blue",
+        "number": 519,
+        "rgb": [
+            126,
+            177,
+            200
+        ]
+    },
+    "666d4f": {
+        "name": "Fern Green Dark",
+        "number": 520,
+        "rgb": [
+            102,
+            109,
+            79
+        ]
+    },
+    "969e7e": {
+        "name": "Fern Green",
+        "number": 522,
+        "rgb": [
+            150,
+            158,
+            126
+        ]
+    },
+    "abb197": {
+        "name": "Fern Green Lt",
+        "number": 523,
+        "rgb": [
+            171,
+            177,
+            151
+        ]
+    },
+    "c4cdac": {
+        "name": "Fern Green Vy Lt",
+        "number": 524,
+        "rgb": [
+            196,
+            205,
+            172
+        ]
+    },
+    "636458": {
+        "name": "Ash Gray Vy Lt",
+        "number": 535,
+        "rgb": [
+            99,
+            100,
+            88
+        ]
+    },
+    "f2e3ce": {
+        "name": "Beige Brown Ult Vy Lt",
+        "number": 543,
+        "rgb": [
+            242,
+            227,
+            206
+        ]
+    },
+    "5c184e": {
+        "name": "Violet Very Dark",
+        "number": 550,
+        "rgb": [
+            92,
+            24,
+            78
+        ]
+    },
+    "803a6b": {
+        "name": "Violet  Medium",
+        "number": 552,
+        "rgb": [
+            128,
+            58,
+            107
+        ]
+    },
+    "a3638b": {
+        "name": "Violet",
+        "number": 553,
+        "rgb": [
+            163,
+            99,
+            139
+        ]
+    },
+    "dbb3cb": {
+        "name": "Violet Light",
+        "number": 554,
+        "rgb": [
+            219,
+            179,
+            203
+        ]
+    },
+    "2c6a45": {
+        "name": "Celadon Green VD",
+        "number": 561,
+        "rgb": [
+            44,
+            106,
+            69
+        ]
+    },
+    "53976a": {
+        "name": "Jade Medium",
+        "number": 562,
+        "rgb": [
+            83,
+            151,
+            106
+        ]
+    },
+    "8fc098": {
+        "name": "Jade Light",
+        "number": 563,
+        "rgb": [
+            143,
+            192,
+            152
+        ]
+    },
+    "a7cdaf": {
+        "name": "Jade Very Light",
+        "number": 564,
+        "rgb": [
+            167,
+            205,
+            175
+        ]
+    },
+    "888d33": {
+        "name": "Moss Green Dk",
+        "number": 580,
+        "rgb": [
+            136,
+            141,
+            51
+        ]
+    },
+    "a7ae38": {
+        "name": "Moss Green",
+        "number": 581,
+        "rgb": [
+            167,
+            174,
+            56
+        ]
+    },
+    "5ba3b3": {
+        "name": "Turquoise",
+        "number": 597,
+        "rgb": [
+            91,
+            163,
+            179
+        ]
+    },
+    "90c3cc": {
+        "name": "Turquoise Light",
+        "number": 598,
+        "rgb": [
+            144,
+            195,
+            204
+        ]
+    },
+    "cd2f63": {
+        "name": "Cranberry Very Dark",
+        "number": 600,
+        "rgb": [
+            205,
+            47,
+            99
+        ]
+    },
+    "d1286a": {
+        "name": "Cranberry Dark",
+        "number": 601,
+        "rgb": [
+            209,
+            40,
+            106
+        ]
+    },
+    "e24874": {
+        "name": "Cranberry Medium",
+        "number": 602,
+        "rgb": [
+            226,
+            72,
+            116
+        ]
+    },
+    "ffa4be": {
+        "name": "Cranberry",
+        "number": 603,
+        "rgb": [
+            255,
+            164,
+            190
+        ]
+    },
+    "ffb0be": {
+        "name": "Cranberry Light",
+        "number": 604,
+        "rgb": [
+            255,
+            176,
+            190
+        ]
+    },
+    "ffc0cd": {
+        "name": "Cranberry Very Light",
+        "number": 605,
+        "rgb": [
+            255,
+            192,
+            205
+        ]
+    },
+    "fa3203": {
+        "name": "Orange-Red Bright",
+        "number": 606,
+        "rgb": [
+            250,
+            50,
+            3
+        ]
+    },
+    "fd5d35": {
+        "name": "Burnt Orange Bright",
+        "number": 608,
+        "rgb": [
+            253,
+            93,
+            53
+        ]
+    },
+    "796047": {
+        "name": "Drab Brown Dk",
+        "number": 610,
+        "rgb": [
+            121,
+            96,
+            71
+        ]
+    },
+    "967656": {
+        "name": "Drab Brown",
+        "number": 611,
+        "rgb": [
+            150,
+            118,
+            86
+        ]
+    },
+    "bc9a78": {
+        "name": "Drab Brown Lt",
+        "number": 612,
+        "rgb": [
+            188,
+            154,
+            120
+        ]
+    },
+    "dcc4aa": {
+        "name": "Drab Brown V Lt",
+        "number": 613,
+        "rgb": [
+            220,
+            196,
+            170
+        ]
+    },
+    "875539": {
+        "name": "Desert Sand Ult Vy Dk",
+        "number": 632,
+        "rgb": [
+            135,
+            85,
+            57
+        ]
+    },
+    "857b61": {
+        "name": "Beige Gray Vy Dk",
+        "number": 640,
+        "rgb": [
+            133,
+            123,
+            97
+        ]
+    },
+    "a49878": {
+        "name": "Beige Gray Dark",
+        "number": 642,
+        "rgb": [
+            164,
+            152,
+            120
+        ]
+    },
+    "ddd8cb": {
+        "name": "Beige Gray Med",
+        "number": 644,
+        "rgb": [
+            221,
+            216,
+            203
+        ]
+    },
+    "6e655c": {
+        "name": "Beaver Gray Vy Dk",
+        "number": 645,
+        "rgb": [
+            110,
+            101,
+            92
+        ]
+    },
+    "877d73": {
+        "name": "Beaver Gray Dk",
+        "number": 646,
+        "rgb": [
+            135,
+            125,
+            115
+        ]
+    },
+    "b0a69c": {
+        "name": "Beaver Gray Med",
+        "number": 647,
+        "rgb": [
+            176,
+            166,
+            156
+        ]
+    },
+    "bcb4ac": {
+        "name": "Beaver Gray Lt",
+        "number": 648,
+        "rgb": [
+            188,
+            180,
+            172
+        ]
+    },
+    "e31d42": {
+        "name": "Bright Red",
+        "number": 666,
+        "rgb": [
+            227,
+            29,
+            66
+        ]
+    },
+    "e5ce97": {
+        "name": "Old Gold Lt",
+        "number": 676,
+        "rgb": [
+            229,
+            206,
+            151
+        ]
+    },
+    "f5eccb": {
+        "name": "Old Gold Vy Lt",
+        "number": 677,
+        "rgb": [
+            245,
+            236,
+            203
+        ]
+    },
+    "bc8d0e": {
+        "name": "Old Gold Dark",
+        "number": 680,
+        "rgb": [
+            188,
+            141,
+            14
+        ]
+    },
+    "056517": {
+        "name": "Green",
+        "number": 699,
+        "rgb": [
+            5,
+            101,
+            23
+        ]
+    },
+    "07731b": {
+        "name": "Green Bright",
+        "number": 700,
+        "rgb": [
+            7,
+            115,
+            27
+        ]
+    },
+    "3f8f29": {
+        "name": "Green Light",
+        "number": 701,
+        "rgb": [
+            63,
+            143,
+            41
+        ]
+    },
+    "47a72f": {
+        "name": "Kelly Green",
+        "number": 702,
+        "rgb": [
+            71,
+            167,
+            47
+        ]
+    },
+    "7bb547": {
+        "name": "Chartreuse",
+        "number": 703,
+        "rgb": [
+            123,
+            181,
+            71
+        ]
+    },
+    "9ecf34": {
+        "name": "Chartreuse Bright",
+        "number": 704,
+        "rgb": [
+            158,
+            207,
+            52
+        ]
+    },
+    "fffbef": {
+        "name": "Cream",
+        "number": 712,
+        "rgb": [
+            255,
+            251,
+            239
+        ]
+    },
+    "9c2462": {
+        "name": "Plum",
+        "number": 718,
+        "rgb": [
+            156,
+            36,
+            98
+        ]
+    },
+    "e55c1f": {
+        "name": "Orange Spice Dark",
+        "number": 720,
+        "rgb": [
+            229,
+            92,
+            31
+        ]
+    },
+    "f27842": {
+        "name": "Orange Spice Med",
+        "number": 721,
+        "rgb": [
+            242,
+            120,
+            66
+        ]
+    },
+    "f7976f": {
+        "name": "Orange Spice Light",
+        "number": 722,
+        "rgb": [
+            247,
+            151,
+            111
+        ]
+    },
+    "ffc840": {
+        "name": "Topaz Med Lt",
+        "number": 725,
+        "rgb": [
+            255,
+            200,
+            64
+        ]
+    },
+    "fdd755": {
+        "name": "Topaz Light",
+        "number": 726,
+        "rgb": [
+            253,
+            215,
+            85
+        ]
+    },
+    "fff1af": {
+        "name": "Topaz Vy Lt",
+        "number": 727,
+        "rgb": [
+            255,
+            241,
+            175
+        ]
+    },
+    "e4b468": {
+        "name": "Topaz",
+        "number": 728,
+        "rgb": [
+            228,
+            180,
+            104
+        ]
+    },
+    "d0a53e": {
+        "name": "Old Gold Medium",
+        "number": 729,
+        "rgb": [
+            208,
+            165,
+            62
+        ]
+    },
+    "827b30": {
+        "name": "Olive Green V Dk",
+        "number": 730,
+        "rgb": [
+            130,
+            123,
+            48
+        ]
+    },
+    "938b37": {
+        "name": "Olive Green Dk",
+        "number": 731,
+        "rgb": [
+            147,
+            139,
+            55
+        ]
+    },
+    "948c36": {
+        "name": "Olive Green",
+        "number": 732,
+        "rgb": [
+            148,
+            140,
+            54
+        ]
+    },
+    "bcb34c": {
+        "name": "Olive Green Md",
+        "number": 733,
+        "rgb": [
+            188,
+            179,
+            76
+        ]
+    },
+    "c7c077": {
+        "name": "Olive Green Lt",
+        "number": 734,
+        "rgb": [
+            199,
+            192,
+            119
+        ]
+    },
+    "eccc9e": {
+        "name": "Tan Very Light",
+        "number": 738,
+        "rgb": [
+            236,
+            204,
+            158
+        ]
+    },
+    "f8e4c8": {
+        "name": "Tan Ult Vy Lt",
+        "number": 739,
+        "rgb": [
+            248,
+            228,
+            200
+        ]
+    },
+    "ff8b00": {
+        "name": "Tangerine",
+        "number": 740,
+        "rgb": [
+            255,
+            139,
+            0
+        ]
+    },
+    "ffa32b": {
+        "name": "Tangerine Med",
+        "number": 741,
+        "rgb": [
+            255,
+            163,
+            43
+        ]
+    },
+    "ffbf57": {
+        "name": "Tangerine Light",
+        "number": 742,
+        "rgb": [
+            255,
+            191,
+            87
+        ]
+    },
+    "fed376": {
+        "name": "Yellow Med",
+        "number": 743,
+        "rgb": [
+            254,
+            211,
+            118
+        ]
+    },
+    "ffe793": {
+        "name": "Yellow Pale",
+        "number": 744,
+        "rgb": [
+            255,
+            231,
+            147
+        ]
+    },
+    "ffe9ad": {
+        "name": "Yellow Pale Light",
+        "number": 745,
+        "rgb": [
+            255,
+            233,
+            173
+        ]
+    },
+    "fcfcee": {
+        "name": "Off White",
+        "number": 746,
+        "rgb": [
+            252,
+            252,
+            238
+        ]
+    },
+    "e5fcfd": {
+        "name": "Peacock Blue Vy Lt",
+        "number": 747,
+        "rgb": [
+            229,
+            252,
+            253
+        ]
+    },
+    "f7cbbf": {
+        "name": "Peach Light",
+        "number": 754,
+        "rgb": [
+            247,
+            203,
+            191
+        ]
+    },
+    "eeaa9b": {
+        "name": "Terra Cotta Vy Lt",
+        "number": 758,
+        "rgb": [
+            238,
+            170,
+            155
+        ]
+    },
+    "f5adad": {
+        "name": "Salmon",
+        "number": 760,
+        "rgb": [
+            245,
+            173,
+            173
+        ]
+    },
+    "ffc9c9": {
+        "name": "Salmon Light",
+        "number": 761,
+        "rgb": [
+            255,
+            201,
+            201
+        ]
+    },
+    "ececec": {
+        "name": "Pearl Gray Vy Lt",
+        "number": 762,
+        "rgb": [
+            236,
+            236,
+            236
+        ]
+    },
+    "e4ecd4": {
+        "name": "Yellow Green Vy Lt",
+        "number": 772,
+        "rgb": [
+            228,
+            236,
+            212
+        ]
+    },
+    "d9ebf1": {
+        "name": "Baby Blue Very Light",
+        "number": 775,
+        "rgb": [
+            217,
+            235,
+            241
+        ]
+    },
+    "fcb0b9": {
+        "name": "Pink Medium",
+        "number": 776,
+        "rgb": [
+            252,
+            176,
+            185
+        ]
+    },
+    "913546": {
+        "name": "Raspberry Very Dark",
+        "number": 777,
+        "rgb": [
+            145,
+            53,
+            70
+        ]
+    },
+    "dfb3bb": {
+        "name": "Antique Mauve Vy Lt",
+        "number": 778,
+        "rgb": [
+            223,
+            179,
+            187
+        ]
+    },
+    "624b45": {
+        "name": "Cocoa Dark",
+        "number": 779,
+        "rgb": [
+            98,
+            75,
+            69
+        ]
+    },
+    "94631a": {
+        "name": "Topaz Ultra Vy Dk",
+        "number": 780,
+        "rgb": [
+            148,
+            99,
+            26
+        ]
+    },
+    "a26d20": {
+        "name": "Topaz Very Dark",
+        "number": 781,
+        "rgb": [
+            162,
+            109,
+            32
+        ]
+    },
+    "ae7720": {
+        "name": "Topaz Dark",
+        "number": 782,
+        "rgb": [
+            174,
+            119,
+            32
+        ]
+    },
+    "ce9124": {
+        "name": "Topaz Medium",
+        "number": 783,
+        "rgb": [
+            206,
+            145,
+            36
+        ]
+    },
+    "464563": {
+        "name": "Cornflower Blue V D",
+        "number": 791,
+        "rgb": [
+            70,
+            69,
+            99
+        ]
+    },
+    "555b7b": {
+        "name": "Cornflower Blue Dark",
+        "number": 792,
+        "rgb": [
+            85,
+            91,
+            123
+        ]
+    },
+    "707da2": {
+        "name": "Cornflower Blue Med",
+        "number": 793,
+        "rgb": [
+            112,
+            125,
+            162
+        ]
+    },
+    "8f9cc1": {
+        "name": "Cornflower Blue Light",
+        "number": 794,
+        "rgb": [
+            143,
+            156,
+            193
+        ]
+    },
+    "11416d": {
+        "name": "Royal Blue Dark",
+        "number": 796,
+        "rgb": [
+            17,
+            65,
+            109
+        ]
+    },
+    "13477d": {
+        "name": "Royal Blue",
+        "number": 797,
+        "rgb": [
+            19,
+            71,
+            125
+        ]
+    },
+    "466a8e": {
+        "name": "Delft Blue Dark",
+        "number": 798,
+        "rgb": [
+            70,
+            106,
+            142
+        ]
+    },
+    "748eb6": {
+        "name": "Delft Blue Medium",
+        "number": 799,
+        "rgb": [
+            116,
+            142,
+            182
+        ]
+    },
+    "c0ccde": {
+        "name": "Delft Blue Pale",
+        "number": 800,
+        "rgb": [
+            192,
+            204,
+            222
+        ]
+    },
+    "653919": {
+        "name": "Coffee Brown Dk",
+        "number": 801,
+        "rgb": [
+            101,
+            57,
+            25
+        ]
+    },
+    "2c597c": {
+        "name": "Baby Blue Ult Vy Dk",
+        "number": 803,
+        "rgb": [
+            44,
+            89,
+            124
+        ]
+    },
+    "3d95a5": {
+        "name": "Peacock Blue Dark",
+        "number": 806,
+        "rgb": [
+            61,
+            149,
+            165
+        ]
+    },
+    "64abba": {
+        "name": "Peacock Blue",
+        "number": 807,
+        "rgb": [
+            100,
+            171,
+            186
+        ]
+    },
+    "94a8c6": {
+        "name": "Delft Blue",
+        "number": 809,
+        "rgb": [
+            148,
+            168,
+            198
+        ]
+    },
+    "a1c2d7": {
+        "name": "Blue Light",
+        "number": 813,
+        "rgb": [
+            161,
+            194,
+            215
+        ]
+    },
+    "7b001b": {
+        "name": "Garnet Dark",
+        "number": 814,
+        "rgb": [
+            123,
+            0,
+            27
+        ]
+    },
+    "87071f": {
+        "name": "Garnet Medium",
+        "number": 815,
+        "rgb": [
+            135,
+            7,
+            31
+        ]
+    },
+    "970b23": {
+        "name": "Garnet",
+        "number": 816,
+        "rgb": [
+            151,
+            11,
+            35
+        ]
+    },
+    "bb051f": {
+        "name": "Coral Red Very Dark",
+        "number": 817,
+        "rgb": [
+            187,
+            5,
+            31
+        ]
+    },
+    "ffdfd9": {
+        "name": "Baby Pink",
+        "number": 818,
+        "rgb": [
+            255,
+            223,
+            217
+        ]
+    },
+    "ffeeeb": {
+        "name": "Baby Pink Light",
+        "number": 819,
+        "rgb": [
+            255,
+            238,
+            235
+        ]
+    },
+    "0e365c": {
+        "name": "Royal Blue Very Dark",
+        "number": 820,
+        "rgb": [
+            14,
+            54,
+            92
+        ]
+    },
+    "e7e2d3": {
+        "name": "Beige Gray Light",
+        "number": 822,
+        "rgb": [
+            231,
+            226,
+            211
+        ]
+    },
+    "213063": {
+        "name": "Navy Blue Dark",
+        "number": 823,
+        "rgb": [
+            33,
+            48,
+            99
+        ]
+    },
+    "396987": {
+        "name": "Blue Very Dark",
+        "number": 824,
+        "rgb": [
+            57,
+            105,
+            135
+        ]
+    },
+    "4781a5": {
+        "name": "Blue Dark",
+        "number": 825,
+        "rgb": [
+            71,
+            129,
+            165
+        ]
+    },
+    "6b9ebf": {
+        "name": "Blue Medium",
+        "number": 826,
+        "rgb": [
+            107,
+            158,
+            191
+        ]
+    },
+    "bddded": {
+        "name": "Blue Very Light",
+        "number": 827,
+        "rgb": [
+            189,
+            221,
+            237
+        ]
+    },
+    "c5e8ed": {
+        "name": "Sky Blue Vy Lt",
+        "number": 828,
+        "rgb": [
+            197,
+            232,
+            237
+        ]
+    },
+    "7e6b42": {
+        "name": "Golden Olive Vy Dk",
+        "number": 829,
+        "rgb": [
+            126,
+            107,
+            66
+        ]
+    },
+    "8d784b": {
+        "name": "Golden Olive Dk",
+        "number": 830,
+        "rgb": [
+            141,
+            120,
+            75
+        ]
+    },
+    "aa8f56": {
+        "name": "Golden Olive Md",
+        "number": 831,
+        "rgb": [
+            170,
+            143,
+            86
+        ]
+    },
+    "bd9b51": {
+        "name": "Golden Olive",
+        "number": 832,
+        "rgb": [
+            189,
+            155,
+            81
+        ]
+    },
+    "c8ab6c": {
+        "name": "Golden Olive Lt",
+        "number": 833,
+        "rgb": [
+            200,
+            171,
+            108
+        ]
+    },
+    "dbbe7f": {
+        "name": "Golden Olive Vy Lt",
+        "number": 834,
+        "rgb": [
+            219,
+            190,
+            127
+        ]
+    },
+    "594937": {
+        "name": "Beige Brown Vy Dk",
+        "number": 838,
+        "rgb": [
+            89,
+            73,
+            55
+        ]
+    },
+    "675541": {
+        "name": "Beige Brown Dk",
+        "number": 839,
+        "rgb": [
+            103,
+            85,
+            65
+        ]
+    },
+    "9a7c5c": {
+        "name": "Beige Brown Med",
+        "number": 840,
+        "rgb": [
+            154,
+            124,
+            92
+        ]
+    },
+    "b69b7e": {
+        "name": "Beige Brown Lt",
+        "number": 841,
+        "rgb": [
+            182,
+            155,
+            126
+        ]
+    },
+    "d1baa1": {
+        "name": "Beige Brown Vy Lt",
+        "number": 842,
+        "rgb": [
+            209,
+            186,
+            161
+        ]
+    },
+    "484848": {
+        "name": "Beaver Gray Ult Dk",
+        "number": 844,
+        "rgb": [
+            72,
+            72,
+            72
+        ]
+    },
+    "835e39": {
+        "name": "Hazelnut Brown V Dk",
+        "number": 869,
+        "rgb": [
+            131,
+            94,
+            57
+        ]
+    },
+    "174923": {
+        "name": "Pistachio Grn Ult V D",
+        "number": 890,
+        "rgb": [
+            23,
+            73,
+            35
+        ]
+    },
+    "ff5773": {
+        "name": "Carnation Dark",
+        "number": 891,
+        "rgb": [
+            255,
+            87,
+            115
+        ]
+    },
+    "ff798c": {
+        "name": "Carnation Medium",
+        "number": 892,
+        "rgb": [
+            255,
+            121,
+            140
+        ]
+    },
+    "fc90a2": {
+        "name": "Carnation Light",
+        "number": 893,
+        "rgb": [
+            252,
+            144,
+            162
+        ]
+    },
+    "ffb2bb": {
+        "name": "Carnation Very Light",
+        "number": 894,
+        "rgb": [
+            255,
+            178,
+            187
+        ]
+    },
+    "1b5300": {
+        "name": "Hunter Green Vy Dk",
+        "number": 895,
+        "rgb": [
+            27,
+            83,
+            0
+        ]
+    },
+    "492a13": {
+        "name": "Coffee Brown Vy Dk",
+        "number": 898,
+        "rgb": [
+            73,
+            42,
+            19
+        ]
+    },
+    "f27688": {
+        "name": "Rose Medium",
+        "number": 899,
+        "rgb": [
+            242,
+            118,
+            136
+        ]
+    },
+    "d15807": {
+        "name": "Burnt Orange Dark",
+        "number": 900,
+        "rgb": [
+            209,
+            88,
+            7
+        ]
+    },
+    "822637": {
+        "name": "Garnet Very Dark",
+        "number": 902,
+        "rgb": [
+            130,
+            38,
+            55
+        ]
+    },
+    "557822": {
+        "name": "Parrot Green V Dk",
+        "number": 904,
+        "rgb": [
+            85,
+            120,
+            34
+        ]
+    },
+    "628a28": {
+        "name": "Parrot Green Dk",
+        "number": 905,
+        "rgb": [
+            98,
+            138,
+            40
+        ]
+    },
+    "7fb335": {
+        "name": "Parrot Green Md",
+        "number": 906,
+        "rgb": [
+            127,
+            179,
+            53
+        ]
+    },
+    "c7e666": {
+        "name": "Parrot Green Lt",
+        "number": 907,
+        "rgb": [
+            199,
+            230,
+            102
+        ]
+    },
+    "156f49": {
+        "name": "Emerald Green Vy Dk",
+        "number": 909,
+        "rgb": [
+            21,
+            111,
+            73
+        ]
+    },
+    "187e56": {
+        "name": "Emerald Green Dark",
+        "number": 910,
+        "rgb": [
+            24,
+            126,
+            86
+        ]
+    },
+    "189065": {
+        "name": "Emerald Green Med",
+        "number": 911,
+        "rgb": [
+            24,
+            144,
+            101
+        ]
+    },
+    "1b9d6b": {
+        "name": "Emerald Green Lt",
+        "number": 912,
+        "rgb": [
+            27,
+            157,
+            107
+        ]
+    },
+    "6dab77": {
+        "name": "Nile Green Med",
+        "number": 913,
+        "rgb": [
+            109,
+            171,
+            119
+        ]
+    },
+    "820043": {
+        "name": "Plum Dark",
+        "number": 915,
+        "rgb": [
+            130,
+            0,
+            67
+        ]
+    },
+    "9b1359": {
+        "name": "Plum Medium",
+        "number": 917,
+        "rgb": [
+            155,
+            19,
+            89
+        ]
+    },
+    "82340a": {
+        "name": "Red?Copper Dark",
+        "number": 918,
+        "rgb": [
+            130,
+            52,
+            10
+        ]
+    },
+    "a64510": {
+        "name": "Red?Copper",
+        "number": 919,
+        "rgb": [
+            166,
+            69,
+            16
+        ]
+    },
+    "ac5414": {
+        "name": "Copper Med",
+        "number": 920,
+        "rgb": [
+            172,
+            84,
+            20
+        ]
+    },
+    "c66218": {
+        "name": "Copper",
+        "number": 921,
+        "rgb": [
+            198,
+            98,
+            24
+        ]
+    },
+    "e27323": {
+        "name": "Copper Light",
+        "number": 922,
+        "rgb": [
+            226,
+            115,
+            35
+        ]
+    },
+    "566a6a": {
+        "name": "Gray Green Vy Dark",
+        "number": 924,
+        "rgb": [
+            86,
+            106,
+            106
+        ]
+    },
+    "98aeae": {
+        "name": "Gray Green Med",
+        "number": 926,
+        "rgb": [
+            152,
+            174,
+            174
+        ]
+    },
+    "bdcbcb": {
+        "name": "Gray Green Light",
+        "number": 927,
+        "rgb": [
+            189,
+            203,
+            203
+        ]
+    },
+    "dde3e3": {
+        "name": "Gray Green Vy Lt",
+        "number": 928,
+        "rgb": [
+            221,
+            227,
+            227
+        ]
+    },
+    "455c71": {
+        "name": "Antique Blue Dark",
+        "number": 930,
+        "rgb": [
+            69,
+            92,
+            113
+        ]
+    },
+    "6a859e": {
+        "name": "Antique Blue Medium",
+        "number": 931,
+        "rgb": [
+            106,
+            133,
+            158
+        ]
+    },
+    "a2b5c6": {
+        "name": "Antique Blue Light",
+        "number": 932,
+        "rgb": [
+            162,
+            181,
+            198
+        ]
+    },
+    "313919": {
+        "name": "Avocado Grn Black",
+        "number": 934,
+        "rgb": [
+            49,
+            57,
+            25
+        ]
+    },
+    "424d21": {
+        "name": "Avocado Green Dk",
+        "number": 935,
+        "rgb": [
+            66,
+            77,
+            33
+        ]
+    },
+    "4c5826": {
+        "name": "Avocado Grn V Dk",
+        "number": 936,
+        "rgb": [
+            76,
+            88,
+            38
+        ]
+    },
+    "627133": {
+        "name": "Avocado Green Md",
+        "number": 937,
+        "rgb": [
+            98,
+            113,
+            51
+        ]
+    },
+    "361f0e": {
+        "name": "Coffee Brown Ult Dk",
+        "number": 938,
+        "rgb": [
+            54,
+            31,
+            14
+        ]
+    },
+    "1b2853": {
+        "name": "Navy Blue Very Dark",
+        "number": 939,
+        "rgb": [
+            27,
+            40,
+            83
+        ]
+    },
+    "3d9384": {
+        "name": "Green Bright Md",
+        "number": 943,
+        "rgb": [
+            61,
+            147,
+            132
+        ]
+    },
+    "fbd5bb": {
+        "name": "Tawny",
+        "number": 945,
+        "rgb": [
+            251,
+            213,
+            187
+        ]
+    },
+    "eb6307": {
+        "name": "Burnt Orange Med",
+        "number": 946,
+        "rgb": [
+            235,
+            99,
+            7
+        ]
+    },
+    "ff7b4d": {
+        "name": "Burnt Orange",
+        "number": 947,
+        "rgb": [
+            255,
+            123,
+            77
+        ]
+    },
+    "fee7da": {
+        "name": "Peach Very Light",
+        "number": 948,
+        "rgb": [
+            254,
+            231,
+            218
+        ]
+    },
+    "eed3c4": {
+        "name": "Desert Sand Light",
+        "number": 950,
+        "rgb": [
+            238,
+            211,
+            196
+        ]
+    },
+    "ffe2cf": {
+        "name": "Tawny Light",
+        "number": 951,
+        "rgb": [
+            255,
+            226,
+            207
+        ]
+    },
+    "88ba91": {
+        "name": "Nile Green",
+        "number": 954,
+        "rgb": [
+            136,
+            186,
+            145
+        ]
+    },
+    "a2d6ad": {
+        "name": "Nile Green Light",
+        "number": 955,
+        "rgb": [
+            162,
+            214,
+            173
+        ]
+    },
+    "ff9191": {
+        "name": "Geranium",
+        "number": 956,
+        "rgb": [
+            255,
+            145,
+            145
+        ]
+    },
+    "fdb5b5": {
+        "name": "Geranium Pale",
+        "number": 957,
+        "rgb": [
+            253,
+            181,
+            181
+        ]
+    },
+    "3eb6a1": {
+        "name": "Sea Green Dark",
+        "number": 958,
+        "rgb": [
+            62,
+            182,
+            161
+        ]
+    },
+    "59c7b4": {
+        "name": "Sea Green Med",
+        "number": 959,
+        "rgb": [
+            89,
+            199,
+            180
+        ]
+    },
+    "cf7373": {
+        "name": "Dusty Rose Dark",
+        "number": 961,
+        "rgb": [
+            207,
+            115,
+            115
+        ]
+    },
+    "e68a8a": {
+        "name": "Dusty Rose Medium",
+        "number": 962,
+        "rgb": [
+            230,
+            138,
+            138
+        ]
+    },
+    "ffd7d7": {
+        "name": "Dusty Rose Ult Vy Lt",
+        "number": 963,
+        "rgb": [
+            255,
+            215,
+            215
+        ]
+    },
+    "a9e2d8": {
+        "name": "Sea Green Light",
+        "number": 964,
+        "rgb": [
+            169,
+            226,
+            216
+        ]
+    },
+    "b9d7c0": {
+        "name": "Jade Ultra Vy Lt",
+        "number": 966,
+        "rgb": [
+            185,
+            215,
+            192
+        ]
+    },
+    "ffded5": {
+        "name": "Apricot Very Light",
+        "number": 967,
+        "rgb": [
+            255,
+            222,
+            213
+        ]
+    },
+    "f78b13": {
+        "name": "Pumpkin Light",
+        "number": 970,
+        "rgb": [
+            247,
+            139,
+            19
+        ]
+    },
+    "f67f00": {
+        "name": "Pumpkin",
+        "number": 971,
+        "rgb": [
+            246,
+            127,
+            0
+        ]
+    },
+    "ffb515": {
+        "name": "Canary Deep",
+        "number": 972,
+        "rgb": [
+            255,
+            181,
+            21
+        ]
+    },
+    "ffe300": {
+        "name": "Canary Bright",
+        "number": 973,
+        "rgb": [
+            255,
+            227,
+            0
+        ]
+    },
+    "914f12": {
+        "name": "Golden Brown Dk",
+        "number": 975,
+        "rgb": [
+            145,
+            79,
+            18
+        ]
+    },
+    "c28142": {
+        "name": "Golden Brown Med",
+        "number": 976,
+        "rgb": [
+            194,
+            129,
+            66
+        ]
+    },
+    "dc9c56": {
+        "name": "Golden Brown Light",
+        "number": 977,
+        "rgb": [
+            220,
+            156,
+            86
+        ]
+    },
+    "405230": {
+        "name": "Forest Green Vy Dk",
+        "number": 986,
+        "rgb": [
+            64,
+            82,
+            48
+        ]
+    },
+    "587141": {
+        "name": "Forest Green Dk",
+        "number": 987,
+        "rgb": [
+            88,
+            113,
+            65
+        ]
+    },
+    "738b5b": {
+        "name": "Forest Green Med",
+        "number": 988,
+        "rgb": [
+            115,
+            139,
+            91
+        ]
+    },
+    "8da675": {
+        "name": "Forest Green ",
+        "number": 989,
+        "rgb": [
+            141,
+            166,
+            117
+        ]
+    },
+    "477b6e": {
+        "name": "Aquamarine Dk",
+        "number": 991,
+        "rgb": [
+            71,
+            123,
+            110
+        ]
+    },
+    "6fae9f": {
+        "name": "Aquamarine Lt",
+        "number": 992,
+        "rgb": [
+            111,
+            174,
+            159
+        ]
+    },
+    "90c0b4": {
+        "name": "Aquamarine Vy Lt",
+        "number": 993,
+        "rgb": [
+            144,
+            192,
+            180
+        ]
+    },
+    "2696b6": {
+        "name": "Electric Blue Dark",
+        "number": 995,
+        "rgb": [
+            38,
+            150,
+            182
+        ]
+    },
+    "30c2ec": {
+        "name": "Electric Blue Medium",
+        "number": 996,
+        "rgb": [
+            48,
+            194,
+            236
+        ]
+    },
+    "898a58": {
+        "name": "Khaki Green Dk",
+        "number": 3011,
+        "rgb": [
+            137,
+            138,
+            88
+        ]
+    },
+    "a6a75d": {
+        "name": "Khaki Green Md",
+        "number": 3012,
+        "rgb": [
+            166,
+            167,
+            93
+        ]
+    },
+    "b9b982": {
+        "name": "Khaki Green Lt",
+        "number": 3013,
+        "rgb": [
+            185,
+            185,
+            130
+        ]
+    },
+    "4f4b41": {
+        "name": "Brown Gray Vy Dk",
+        "number": 3021,
+        "rgb": [
+            79,
+            75,
+            65
+        ]
+    },
+    "8e9078": {
+        "name": "Brown Gray Med",
+        "number": 3022,
+        "rgb": [
+            142,
+            144,
+            120
+        ]
+    },
+    "b1aa97": {
+        "name": "Brown Gray Light",
+        "number": 3023,
+        "rgb": [
+            177,
+            170,
+            151
+        ]
+    },
+    "ebeae7": {
+        "name": "Brown Gray Vy Lt",
+        "number": 3024,
+        "rgb": [
+            235,
+            234,
+            231
+        ]
+    },
+    "4b3c2a": {
+        "name": "Mocha Brown Vy Dk",
+        "number": 3031,
+        "rgb": [
+            75,
+            60,
+            42
+        ]
+    },
+    "b39f8b": {
+        "name": "Mocha Brown Med",
+        "number": 3032,
+        "rgb": [
+            179,
+            159,
+            139
+        ]
+    },
+    "e3d8cc": {
+        "name": "Mocha Brown Vy Lt",
+        "number": 3033,
+        "rgb": [
+            227,
+            216,
+            204
+        ]
+    },
+    "956f7c": {
+        "name": "Antique Violet Medium",
+        "number": 3041,
+        "rgb": [
+            149,
+            111,
+            124
+        ]
+    },
+    "b79da7": {
+        "name": "Antique Violet Light",
+        "number": 3042,
+        "rgb": [
+            183,
+            157,
+            167
+        ]
+    },
+    "bc966a": {
+        "name": "Yellow Beige Dk",
+        "number": 3045,
+        "rgb": [
+            188,
+            150,
+            106
+        ]
+    },
+    "d8bc9a": {
+        "name": "Yellow Beige Md",
+        "number": 3046,
+        "rgb": [
+            216,
+            188,
+            154
+        ]
+    },
+    "e7d6c1": {
+        "name": "Yellow Beige Lt",
+        "number": 3047,
+        "rgb": [
+            231,
+            214,
+            193
+        ]
+    },
+    "5f6648": {
+        "name": "Green Gray Dk",
+        "number": 3051,
+        "rgb": [
+            95,
+            102,
+            72
+        ]
+    },
+    "889268": {
+        "name": "Green Gray Md",
+        "number": 3052,
+        "rgb": [
+            136,
+            146,
+            104
+        ]
+    },
+    "9ca482": {
+        "name": "Green Gray",
+        "number": 3053,
+        "rgb": [
+            156,
+            164,
+            130
+        ]
+    },
+    "c48e70": {
+        "name": "Desert Sand",
+        "number": 3064,
+        "rgb": [
+            196,
+            142,
+            112
+        ]
+    },
+    "e6e8e8": {
+        "name": "Beaver Gray Vy Lt",
+        "number": 3072,
+        "rgb": [
+            230,
+            232,
+            232
+        ]
+    },
+    "fdf9cd": {
+        "name": "Golden Yellow Vy Lt",
+        "number": 3078,
+        "rgb": [
+            253,
+            249,
+            205
+        ]
+    },
+    "b8d2e6": {
+        "name": "Baby Blue Light",
+        "number": 3325,
+        "rgb": [
+            184,
+            210,
+            230
+        ]
+    },
+    "fbadb4": {
+        "name": "Rose Light",
+        "number": 3326,
+        "rgb": [
+            251,
+            173,
+            180
+        ]
+    },
+    "e36d6d": {
+        "name": "Salmon Dark",
+        "number": 3328,
+        "rgb": [
+            227,
+            109,
+            109
+        ]
+    },
+    "ff836f": {
+        "name": "Apricot Med",
+        "number": 3340,
+        "rgb": [
+            255,
+            131,
+            111
+        ]
+    },
+    "fcab98": {
+        "name": "Apricot",
+        "number": 3341,
+        "rgb": [
+            252,
+            171,
+            152
+        ]
+    },
+    "1b5915": {
+        "name": "Hunter Green Dk",
+        "number": 3345,
+        "rgb": [
+            27,
+            89,
+            21
+        ]
+    },
+    "406a3a": {
+        "name": "Hunter Green",
+        "number": 3346,
+        "rgb": [
+            64,
+            106,
+            58
+        ]
+    },
+    "71935c": {
+        "name": "Yellow Green Med",
+        "number": 3347,
+        "rgb": [
+            113,
+            147,
+            92
+        ]
+    },
+    "ccd9b1": {
+        "name": "Yellow Green Lt",
+        "number": 3348,
+        "rgb": [
+            204,
+            217,
+            177
+        ]
+    },
+    "bc4365": {
+        "name": "Dusty Rose Ultra Dark",
+        "number": 3350,
+        "rgb": [
+            188,
+            67,
+            101
+        ]
+    },
+    "e4a6ac": {
+        "name": "Dusty Rose Light",
+        "number": 3354,
+        "rgb": [
+            228,
+            166,
+            172
+        ]
+    },
+    "5e6b47": {
+        "name": "Pine Green Dk",
+        "number": 3362,
+        "rgb": [
+            94,
+            107,
+            71
+        ]
+    },
+    "728256": {
+        "name": "Pine Green Md",
+        "number": 3363,
+        "rgb": [
+            114,
+            130,
+            86
+        ]
+    },
+    "83975f": {
+        "name": "Pine Green",
+        "number": 3364,
+        "rgb": [
+            131,
+            151,
+            95
+        ]
+    },
+    "1e1108": {
+        "name": "Black Brown",
+        "number": 3371,
+        "rgb": [
+            30,
+            17,
+            8
+        ]
+    },
+    "c54989": {
+        "name": "Plum Light",
+        "number": 3607,
+        "rgb": [
+            197,
+            73,
+            137
+        ]
+    },
+    "ea9cc4": {
+        "name": "Plum Very Light",
+        "number": 3608,
+        "rgb": [
+            234,
+            156,
+            196
+        ]
+    },
+    "f4aed5": {
+        "name": "Plum Ultra Light",
+        "number": 3609,
+        "rgb": [
+            244,
+            174,
+            213
+        ]
+    },
+    "881531": {
+        "name": "Mauve Very Dark",
+        "number": 3685,
+        "rgb": [
+            136,
+            21,
+            49
+        ]
+    },
+    "c96b70": {
+        "name": "Mauve",
+        "number": 3687,
+        "rgb": [
+            201,
+            107,
+            112
+        ]
+    },
+    "e7a9ac": {
+        "name": "Mauve Medium",
+        "number": 3688,
+        "rgb": [
+            231,
+            169,
+            172
+        ]
+    },
+    "fbbfc2": {
+        "name": "Mauve Light",
+        "number": 3689,
+        "rgb": [
+            251,
+            191,
+            194
+        ]
+    },
+    "ff7992": {
+        "name": "Melon Dark",
+        "number": 3705,
+        "rgb": [
+            255,
+            121,
+            146
+        ]
+    },
+    "ffadbc": {
+        "name": "Melon Medium",
+        "number": 3706,
+        "rgb": [
+            255,
+            173,
+            188
+        ]
+    },
+    "ffcbd5": {
+        "name": "Melon Light",
+        "number": 3708,
+        "rgb": [
+            255,
+            203,
+            213
+        ]
+    },
+    "f18787": {
+        "name": "Salmon Medium",
+        "number": 3712,
+        "rgb": [
+            241,
+            135,
+            135
+        ]
+    },
+    "ffe2e2": {
+        "name": "Salmon Very Light",
+        "number": 3713,
+        "rgb": [
+            255,
+            226,
+            226
+        ]
+    },
+    "ffbdbd": {
+        "name": "Dusty Rose Med Vy Lt",
+        "number": 3716,
+        "rgb": [
+            255,
+            189,
+            189
+        ]
+    },
+    "a14b51": {
+        "name": "Shell Pink Dark",
+        "number": 3721,
+        "rgb": [
+            161,
+            75,
+            81
+        ]
+    },
+    "bc6c64": {
+        "name": "Shell Pink Med",
+        "number": 3722,
+        "rgb": [
+            188,
+            108,
+            100
+        ]
+    },
+    "9b5b66": {
+        "name": "Antique Mauve Dark",
+        "number": 3726,
+        "rgb": [
+            155,
+            91,
+            102
+        ]
+    },
+    "dba9b2": {
+        "name": "Antique Mauve Light",
+        "number": 3727,
+        "rgb": [
+            219,
+            169,
+            178
+        ]
+    },
+    "da6783": {
+        "name": "Dusty Rose Very Dark",
+        "number": 3731,
+        "rgb": [
+            218,
+            103,
+            131
+        ]
+    },
+    "e8879b": {
+        "name": "Dusty Rose",
+        "number": 3733,
+        "rgb": [
+            232,
+            135,
+            155
+        ]
+    },
+    "785762": {
+        "name": "Antique Violet Dark",
+        "number": 3740,
+        "rgb": [
+            120,
+            87,
+            98
+        ]
+    },
+    "d7cbd3": {
+        "name": "Antique Violet Vy Lt",
+        "number": 3743,
+        "rgb": [
+            215,
+            203,
+            211
+        ]
+    },
+    "776b98": {
+        "name": "Blue Violet Dark",
+        "number": 3746,
+        "rgb": [
+            119,
+            107,
+            152
+        ]
+    },
+    "d3d7ed": {
+        "name": "Blue Violet Vy Lt",
+        "number": 3747,
+        "rgb": [
+            211,
+            215,
+            237
+        ]
+    },
+    "384c5e": {
+        "name": "Antique Blue Very Dk",
+        "number": 3750,
+        "rgb": [
+            56,
+            76,
+            94
+        ]
+    },
+    "c7d1db": {
+        "name": "Antique Blue Very Lt",
+        "number": 3752,
+        "rgb": [
+            199,
+            209,
+            219
+        ]
+    },
+    "dbe2e9": {
+        "name": "Antique Blue Ult Vy Lt",
+        "number": 3753,
+        "rgb": [
+            219,
+            226,
+            233
+        ]
+    },
+    "93b4ce": {
+        "name": "Baby Blue",
+        "number": 3755,
+        "rgb": [
+            147,
+            180,
+            206
+        ]
+    },
+    "eefcfc": {
+        "name": "Baby Blue Ult Vy Lt",
+        "number": 3756,
+        "rgb": [
+            238,
+            252,
+            252
+        ]
+    },
+    "3e85a2": {
+        "name": "Wedgewood Med",
+        "number": 3760,
+        "rgb": [
+            62,
+            133,
+            162
+        ]
+    },
+    "acd8e2": {
+        "name": "Sky Blue Light",
+        "number": 3761,
+        "rgb": [
+            172,
+            216,
+            226
+        ]
+    },
+    "347f8c": {
+        "name": "Peacock Blue Vy Dk",
+        "number": 3765,
+        "rgb": [
+            52,
+            127,
+            140
+        ]
+    },
+    "99cfd9": {
+        "name": "Peacock Blue Light",
+        "number": 3766,
+        "rgb": [
+            153,
+            207,
+            217
+        ]
+    },
+    "657f7f": {
+        "name": "Gray Green Dark",
+        "number": 3768,
+        "rgb": [
+            101,
+            127,
+            127
+        ]
+    },
+    "ffeee3": {
+        "name": "Tawny Vy Light",
+        "number": 3770,
+        "rgb": [
+            255,
+            238,
+            227
+        ]
+    },
+    "f4bba9": {
+        "name": "Terra Cotta Ult Vy Lt",
+        "number": 3771,
+        "rgb": [
+            244,
+            187,
+            169
+        ]
+    },
+    "a06c50": {
+        "name": "Desert Sand Vy Dk",
+        "number": 3772,
+        "rgb": [
+            160,
+            108,
+            80
+        ]
+    },
+    "b67552": {
+        "name": "Desert Sand Dark",
+        "number": 3773,
+        "rgb": [
+            182,
+            117,
+            82
+        ]
+    },
+    "f3e1d7": {
+        "name": "Desert Sand Vy Lt",
+        "number": 3774,
+        "rgb": [
+            243,
+            225,
+            215
+        ]
+    },
+    "cf7939": {
+        "name": "Mahogany Light",
+        "number": 3776,
+        "rgb": [
+            207,
+            121,
+            57
+        ]
+    },
+    "863022": {
+        "name": "Terra Cotta Vy Dk",
+        "number": 3777,
+        "rgb": [
+            134,
+            48,
+            34
+        ]
+    },
+    "d98978": {
+        "name": "Terra Cotta Light",
+        "number": 3778,
+        "rgb": [
+            217,
+            137,
+            120
+        ]
+    },
+    "f8cac8": {
+        "name": "Rosewood Ult Vy Lt",
+        "number": 3779,
+        "rgb": [
+            248,
+            202,
+            200
+        ]
+    },
+    "6b5743": {
+        "name": "Mocha Brown Dk",
+        "number": 3781,
+        "rgb": [
+            107,
+            87,
+            67
+        ]
+    },
+    "d2bca6": {
+        "name": "Mocha Brown Lt",
+        "number": 3782,
+        "rgb": [
+            210,
+            188,
+            166
+        ]
+    },
+    "625d50": {
+        "name": "Brown Gray Dark",
+        "number": 3787,
+        "rgb": [
+            98,
+            93,
+            80
+        ]
+    },
+    "7f6a55": {
+        "name": "Beige Gray Ult Dk",
+        "number": 3790,
+        "rgb": [
+            127,
+            106,
+            85
+        ]
+    },
+    "424242": {
+        "name": "Pewter Gray Vy Dk",
+        "number": 3799,
+        "rgb": [
+            66,
+            66,
+            66
+        ]
+    },
+    "e74967": {
+        "name": "Melon Very Dark",
+        "number": 3801,
+        "rgb": [
+            231,
+            73,
+            103
+        ]
+    },
+    "714149": {
+        "name": "Antique Mauve Vy Dk",
+        "number": 3802,
+        "rgb": [
+            113,
+            65,
+            73
+        ]
+    },
+    "ab3357": {
+        "name": "Mauve Dark",
+        "number": 3803,
+        "rgb": [
+            171,
+            51,
+            87
+        ]
+    },
+    "e02876": {
+        "name": "Cyclamen Pink Dark",
+        "number": 3804,
+        "rgb": [
+            224,
+            40,
+            118
+        ]
+    },
+    "f3478b": {
+        "name": "Cyclamen Pink",
+        "number": 3805,
+        "rgb": [
+            243,
+            71,
+            139
+        ]
+    },
+    "ff8cae": {
+        "name": "Cyclamen Pink Light",
+        "number": 3806,
+        "rgb": [
+            255,
+            140,
+            174
+        ]
+    },
+    "60678c": {
+        "name": "Cornflower Blue",
+        "number": 3807,
+        "rgb": [
+            96,
+            103,
+            140
+        ]
+    },
+    "366970": {
+        "name": "Turquoise Ult Vy Dk",
+        "number": 3808,
+        "rgb": [
+            54,
+            105,
+            112
+        ]
+    },
+    "3f7c85": {
+        "name": "Turquoise Vy Dark",
+        "number": 3809,
+        "rgb": [
+            63,
+            124,
+            133
+        ]
+    },
+    "488e9a": {
+        "name": "Turquoise Dark",
+        "number": 3810,
+        "rgb": [
+            72,
+            142,
+            154
+        ]
+    },
+    "bce3e6": {
+        "name": "Turquoise Very Light",
+        "number": 3811,
+        "rgb": [
+            188,
+            227,
+            230
+        ]
+    },
+    "2f8c84": {
+        "name": "Sea Green Vy Dk",
+        "number": 3812,
+        "rgb": [
+            47,
+            140,
+            132
+        ]
+    },
+    "b2d4bd": {
+        "name": "Blue Green Lt",
+        "number": 3813,
+        "rgb": [
+            178,
+            212,
+            189
+        ]
+    },
+    "508b7d": {
+        "name": "Aquamarine",
+        "number": 3814,
+        "rgb": [
+            80,
+            139,
+            125
+        ]
+    },
+    "477759": {
+        "name": "Celadon Green Dk",
+        "number": 3815,
+        "rgb": [
+            71,
+            119,
+            89
+        ]
+    },
+    "65a57d": {
+        "name": "Celadon Green",
+        "number": 3816,
+        "rgb": [
+            101,
+            165,
+            125
+        ]
+    },
+    "99c3aa": {
+        "name": "Celadon Green Lt",
+        "number": 3817,
+        "rgb": [
+            153,
+            195,
+            170
+        ]
+    },
+    "115a3b": {
+        "name": "Emerald Grn Ult V Dk",
+        "number": 3818,
+        "rgb": [
+            17,
+            90,
+            59
+        ]
+    },
+    "e0e868": {
+        "name": "Moss Green Lt",
+        "number": 3819,
+        "rgb": [
+            224,
+            232,
+            104
+        ]
+    },
+    "dfb65f": {
+        "name": "Straw Dark",
+        "number": 3820,
+        "rgb": [
+            223,
+            182,
+            95
+        ]
+    },
+    "f3ce75": {
+        "name": "Straw",
+        "number": 3821,
+        "rgb": [
+            243,
+            206,
+            117
+        ]
+    },
+    "f6dc98": {
+        "name": "Straw Light",
+        "number": 3822,
+        "rgb": [
+            246,
+            220,
+            152
+        ]
+    },
+    "fffde3": {
+        "name": "Yellow Ultra Pale",
+        "number": 3823,
+        "rgb": [
+            255,
+            253,
+            227
+        ]
+    },
+    "fecdc2": {
+        "name": "Apricot Light",
+        "number": 3824,
+        "rgb": [
+            254,
+            205,
+            194
+        ]
+    },
+    "fdbd96": {
+        "name": "Pumpkin Pale",
+        "number": 3825,
+        "rgb": [
+            253,
+            189,
+            150
+        ]
+    },
+    "ad7239": {
+        "name": "Golden Brown",
+        "number": 3826,
+        "rgb": [
+            173,
+            114,
+            57
+        ]
+    },
+    "f7bb77": {
+        "name": "Golden Brown Pale",
+        "number": 3827,
+        "rgb": [
+            247,
+            187,
+            119
+        ]
+    },
+    "b78b61": {
+        "name": "Hazelnut Brown",
+        "number": 3828,
+        "rgb": [
+            183,
+            139,
+            97
+        ]
+    },
+    "a98204": {
+        "name": "Old Gold Vy Dark",
+        "number": 3829,
+        "rgb": [
+            169,
+            130,
+            4
+        ]
+    },
+    "b95544": {
+        "name": "Terra Cotta",
+        "number": 3830,
+        "rgb": [
+            185,
+            85,
+            68
+        ]
+    },
+    "b32f48": {
+        "name": "Raspberry Dark",
+        "number": 3831,
+        "rgb": [
+            179,
+            47,
+            72
+        ]
+    },
+    "db556e": {
+        "name": "Raspberry Medium",
+        "number": 3832,
+        "rgb": [
+            219,
+            85,
+            110
+        ]
+    },
+    "ea8699": {
+        "name": "Raspberry Light",
+        "number": 3833,
+        "rgb": [
+            234,
+            134,
+            153
+        ]
+    },
+    "72375d": {
+        "name": "Grape Dark",
+        "number": 3834,
+        "rgb": [
+            114,
+            55,
+            93
+        ]
+    },
+    "946083": {
+        "name": "Grape Medium",
+        "number": 3835,
+        "rgb": [
+            148,
+            96,
+            131
+        ]
+    },
+    "ba91aa": {
+        "name": "Grape Light",
+        "number": 3836,
+        "rgb": [
+            186,
+            145,
+            170
+        ]
+    },
+    "6c3a6e": {
+        "name": "Lavender Ultra Dark",
+        "number": 3837,
+        "rgb": [
+            108,
+            58,
+            110
+        ]
+    },
+    "5c7294": {
+        "name": "Lavender Blue Dark",
+        "number": 3838,
+        "rgb": [
+            92,
+            114,
+            148
+        ]
+    },
+    "7b8eab": {
+        "name": "Lavender Blue Med",
+        "number": 3839,
+        "rgb": [
+            123,
+            142,
+            171
+        ]
+    },
+    "b0c0da": {
+        "name": "Lavender Blue Light",
+        "number": 3840,
+        "rgb": [
+            176,
+            192,
+            218
+        ]
+    },
+    "cddfed": {
+        "name": "Baby Blue Pale",
+        "number": 3841,
+        "rgb": [
+            205,
+            223,
+            237
+        ]
+    },
+    "32667c": {
+        "name": "Wedgewood Vry Dk",
+        "number": 3842,
+        "rgb": [
+            50,
+            102,
+            124
+        ]
+    },
+    "14aad0": {
+        "name": "Electric Blue",
+        "number": 3843,
+        "rgb": [
+            20,
+            170,
+            208
+        ]
+    },
+    "12aeba": {
+        "name": "Turquoise Bright Dark",
+        "number": 3844,
+        "rgb": [
+            18,
+            174,
+            186
+        ]
+    },
+    "04c4ca": {
+        "name": "Turquoise Bright Med",
+        "number": 3845,
+        "rgb": [
+            4,
+            196,
+            202
+        ]
+    },
+    "06e3e6": {
+        "name": "Turquoise Bright Light",
+        "number": 3846,
+        "rgb": [
+            6,
+            227,
+            230
+        ]
+    },
+    "347d75": {
+        "name": "Teal Green Dark",
+        "number": 3847,
+        "rgb": [
+            52,
+            125,
+            117
+        ]
+    },
+    "559392": {
+        "name": "Teal Green Med",
+        "number": 3848,
+        "rgb": [
+            85,
+            147,
+            146
+        ]
+    },
+    "52b3a4": {
+        "name": "Teal Green Light",
+        "number": 3849,
+        "rgb": [
+            82,
+            179,
+            164
+        ]
+    },
+    "378477": {
+        "name": "Green Bright Dk",
+        "number": 3850,
+        "rgb": [
+            55,
+            132,
+            119
+        ]
+    },
+    "49b3a1": {
+        "name": "Green Bright Lt",
+        "number": 3851,
+        "rgb": [
+            73,
+            179,
+            161
+        ]
+    },
+    "cd9d37": {
+        "name": "Straw Very Dark",
+        "number": 3852,
+        "rgb": [
+            205,
+            157,
+            55
+        ]
+    },
+    "f29746": {
+        "name": "Autumn Gold Dk",
+        "number": 3853,
+        "rgb": [
+            242,
+            151,
+            70
+        ]
+    },
+    "f2af68": {
+        "name": "Autumn Gold Med",
+        "number": 3854,
+        "rgb": [
+            242,
+            175,
+            104
+        ]
+    },
+    "fad396": {
+        "name": "Autumn Gold Lt",
+        "number": 3855,
+        "rgb": [
+            250,
+            211,
+            150
+        ]
+    },
+    "ffd3b5": {
+        "name": "Mahogany Ult Vy Lt",
+        "number": 3856,
+        "rgb": [
+            255,
+            211,
+            181
+        ]
+    },
+    "68251a": {
+        "name": "Rosewood Dark",
+        "number": 3857,
+        "rgb": [
+            104,
+            37,
+            26
+        ]
+    },
+    "964a3f": {
+        "name": "Rosewood Med",
+        "number": 3858,
+        "rgb": [
+            150,
+            74,
+            63
+        ]
+    },
+    "ba8b7c": {
+        "name": "Rosewood Light",
+        "number": 3859,
+        "rgb": [
+            186,
+            139,
+            124
+        ]
+    },
+    "7d5d57": {
+        "name": "Cocoa",
+        "number": 3860,
+        "rgb": [
+            125,
+            93,
+            87
+        ]
+    },
+    "a68881": {
+        "name": "Cocoa Light",
+        "number": 3861,
+        "rgb": [
+            166,
+            136,
+            129
+        ]
+    },
+    "8a6e4e": {
+        "name": "Mocha Beige Dark",
+        "number": 3862,
+        "rgb": [
+            138,
+            110,
+            78
+        ]
+    },
+    "a4835c": {
+        "name": "Mocha Beige Med",
+        "number": 3863,
+        "rgb": [
+            164,
+            131,
+            92
+        ]
+    },
+    "cbb69c": {
+        "name": "Mocha Beige Light",
+        "number": 3864,
+        "rgb": [
+            203,
+            182,
+            156
+        ]
+    },
+    "f9f7f1": {
+        "name": "Winter White",
+        "number": 3865,
+        "rgb": [
+            249,
+            247,
+            241
+        ]
+    },
+    "faf6f0": {
+        "name": "Mocha Brn Ult Vy Lt",
+        "number": 3866,
+        "rgb": [
+            250,
+            246,
+            240
+        ]
+    }
+}
