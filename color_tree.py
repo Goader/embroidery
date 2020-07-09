@@ -8,14 +8,16 @@ def RGB_to_HEX(rgb):
     return '%02x%02x%02x' % rgb
 
 def dist(rgbx, rgby):
-    dR = abs( rgbx[0] - rgby[0] )
-    dG = abs( rgbx[1] - rgby[1] )
-    dB = abs( rgbx[2] - rgby[2] )
+    dR = rgbx[0] - rgby[0]
+    dG = rgbx[1] - rgby[1]
+    dB = rgbx[2] - rgby[2]
 
     if dR < 128:
-        return sqrt( 2 * dR * dR + 4 * dG * dG + 3 * dB * dB )
+        #return sqrt( 2 * dR * dR + 4 * dG * dG + 3 * dB * dB )
+        return 2 * dR * dR + 4 * dG * dG + 3 * dB * dB
     else:
-        return sqrt( 3 * dR * dR + 4 * dG * dG + 2 * dB * dB )
+        #return sqrt( 3 * dR * dR + 4 * dG * dG + 2 * dB * dB )
+        return 3 * dR * dR + 4 * dG * dG + 2 * dB * dB
 
 
 def get_dmcs():
@@ -26,6 +28,7 @@ def get_dmcs():
 
 def get_dmc_tree():
     metric = DistanceMetric.get_metric('pyfunc', func = dist)
+    #metric = DistanceMetric.get_metric('euclidean')
 
     dmcs = get_dmcs()
 

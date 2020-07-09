@@ -4,6 +4,7 @@ from visual import visualize
 from progress.bar import ChargingBar
 import numpy as np
 import os
+import time
 
 
 address = str( input("Input image address: ") )
@@ -24,18 +25,22 @@ threads = []
 tree, dmcs, idxs = get_dmc_tree()
 
 
-bar = ChargingBar('Processed', max = w * h)
+bar = ChargingBar('Processed', max = h)
+
+t0 = time.time()
 
 for row in pixels:
     for pixel in row:
         idx = get_thread(pixel, tree)
 
         thread, rgb = get_thread_info(idx, idxs, dmcs)
-        
-        bar.next()
 
         image.append(rgb)
         threads.append(thread)
+
+    bar.next()
+
+print( '\n' + str( time.time() - t0 ) )
 
 image = np.array_split(image, h)
 threads = np.array_split(image, h)
