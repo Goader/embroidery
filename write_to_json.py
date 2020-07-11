@@ -464,7 +464,9 @@ with open("dmc.json", "w") as to_write:
     total_dict = {}
 
     for dmc in dmcs:
-        tmp_dict = {"name": dmc[1], "number": dmc[0], "rgb": (dmc[2], dmc[3], dmc[4])}
+        tmp_dict = {"name": dmc[1],
+                    "number": dmc[0],
+                    "rgb": (dmc[2], dmc[3], dmc[4])}
         total_dict.update({RGB_to_HEX((dmc[2], dmc[3], dmc[4])): tmp_dict})
 
     json.dump(total_dict, to_write, indent=4)
