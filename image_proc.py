@@ -8,31 +8,26 @@ Notes:
     - add transfer from HSV, LAB and others to RGB
 """
 
-def get_image(address):
-    im = Image.open(address, 'r')
+
+def get_image(filepath):
+    im = Image.open(filepath, 'r')
 
     if im.mode != "RGB":
-        raise "Pixels are not in RGB"
+        raise Exception("Pixels are not in RGB")
 
     pixels = list(im.getdata())
-
     width, height = im.size
-
     print(width, height)
-
     pixels = np.array_split(pixels, height)
-
     return pixels, (width, height)
 
 
-def generate_new_name(address):
-    return address[ :address.rfind('.') ] + '_edited.jpg'
+def generate_new_name(filepath):
+    return filepath[:filepath.rfind(".")] + "_edited.jpg"
 
-def resize_image(address, x, y):
-    im = Image.open(address, 'r')
-    
+
+def resize_image(filepath, x, y):
+    im = Image.open(filepath, 'r')
     im = im.resize((x, y))
-
     im.save("tmp.jpg", "JPEG")
-
     return "tmp.jpg"

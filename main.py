@@ -7,9 +7,9 @@ import os
 import time
 
 
-address = str( input("Input image address: ") )
-x = int( input("Type in width:  ") )
-y = int( input("Type in height: ") )
+address = input("Input image file path: ")
+x = int(input("Type in width:  "))
+y = int(input("Type in height: "))
 
 new_address = resize_image(address, x, y)
 
@@ -17,30 +17,25 @@ pixels, size = get_image(new_address)
 w, h = size
 
 if w != x or h != y:
-    raise "Dimensions collapse"
+    raise Exception("Dimensions collapse")
 
 image = []
 threads = []
 
 tree, dmcs, idxs = get_dmc_tree()
 
-
-bar = ChargingBar('Processed', max = h)
-
+bar = ChargingBar("Processed", max=h)
 t0 = time.time()
 
 for row in pixels:
     for pixel in row:
         idx = get_thread(pixel, tree)
-
         thread, rgb = get_thread_info(idx, idxs, dmcs)
-
         image.append(rgb)
         threads.append(thread)
-
     bar.next()
 
-print( '\n' + str( time.time() - t0 ) )
+print("\n", time.time() - t0)
 
 image = np.array_split(image, h)
 threads = np.array_split(image, h)
