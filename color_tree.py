@@ -34,16 +34,13 @@ def get_dmc_tree():
 
     dmcs = get_dmcs()
     idxs = [thread["rgb"] for key, thread in dmcs.items()]
-    tree = BallTree(np.array(idxs), leaf_size=250, metric=metric)
+    tree = BallTree(np.array(idxs), leaf_size=5, metric=metric)
     return tree, dmcs, idxs
 
 
-def get_thread(rgb, tree):
+def get_thread(rgb, tree, idxs, dmcs):
     idx = tree.query(np.array([rgb]), return_distance=False)
-    return idx[0][0]
-
-
-def get_thread_info(idx, idxs, dmcs):
-    rgb = idxs[idx]
+    rgb = idxs[idx[0][0]]
     hex_color = RGB_to_HEX(tuple(rgb))
     return dmcs[hex_color]["number"], rgb
+
