@@ -1,5 +1,6 @@
 from image_proc import get_image, resize_image, process_image
-from visual import visualize
+from scheme import draw_scheme
+from visual import visualize, save_image
 import numpy as np
 import os
 
@@ -20,6 +21,11 @@ if w != x or h != y:
 
 image, threads = process_image(pixels, w, h)
 
-visualize(image, address)
+#visualize(image, address)
+save_image(image, address)
 
 os.remove("tmp.jpg")
+
+scheme = draw_scheme(image, threads)
+
+visualize(scheme, address, im_type='s')

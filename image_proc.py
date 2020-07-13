@@ -20,7 +20,7 @@ def get_image(filepath):
 
     pixels = list(im.getdata())
     width, height = im.size
-    #print(width, height)
+    
     pixels = np.array_split(pixels, height)
     return pixels, (width, height)
 
@@ -28,6 +28,8 @@ def get_image(filepath):
 def generate_new_name(filepath):
     return filepath[:filepath.rfind(".")] + "_edited.jpg"
 
+def generate_scheme_name(filepath):
+    return "schemes" + filepath[filepath.rfind("/"):]
 
 def resize_image(filepath, x, y):
     im = Image.open(filepath, 'r')
@@ -58,6 +60,8 @@ def process_image(pixels, w, h):
     bar = ChargingBar("Processed", max=h)
     t0 = time.time()
 
+    #ts = []
+
     for y in range(h):
         for x in range(w):
             thread, rgb = get_thread(image[x][y], tree, idxs, dmcs)
@@ -65,12 +69,16 @@ def process_image(pixels, w, h):
 
             image[x][y] = rgb
 
+            # if thread not in ts:
+            #     ts.append(thread)
+
             quant_error = [ (image[x][y][i] - rgb[i]) for i in range(3) ]
             for nx, ny, coef in iterate_neighbors(x, y, w, h):
                 floyd_steinberg_effect(image, nx, ny, quant_error, coef)
         bar.next()
 
     print("\nTime spent: ", round(time.time() - t0, 2))
+    #print("Distinct threads used: ", len(ts))
 
     threads = np.array_split(threads, w)
 

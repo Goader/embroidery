@@ -14,10 +14,8 @@ def dist(rgbx, rgby):
     dB = rgbx[2] - rgby[2]
 
     if dR < 128:
-        # return sqrt( 2 * dR * dR + 4 * dG * dG + 3 * dB * dB )
         return 2 * dR * dR + 4 * dG * dG + 3 * dB * dB
     else:
-        # return sqrt( 3 * dR * dR + 4 * dG * dG + 2 * dB * dB )
         return 3 * dR * dR + 4 * dG * dG + 2 * dB * dB
 
 
@@ -42,5 +40,5 @@ def get_thread(rgb, tree, idxs, dmcs):
     idx = tree.query(np.array([rgb]), return_distance=False)
     rgb = idxs[idx[0][0]]
     hex_color = RGB_to_HEX(tuple(rgb))
-    return dmcs[hex_color]["number"], rgb
+    return dmcs[hex_color], rgb
 
