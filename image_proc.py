@@ -20,7 +20,7 @@ def get_image(filepath):
 
     pixels = list(im.getdata())
     width, height = im.size
-    
+
     pixels = np.array_split(pixels, height)
     return pixels, (width, height)
 
@@ -28,8 +28,10 @@ def get_image(filepath):
 def generate_new_name(filepath):
     return filepath[:filepath.rfind(".")] + "_edited.jpg"
 
+
 def generate_scheme_name(filepath):
     return "schemes" + filepath[filepath.rfind("/"):]
+
 
 def resize_image(filepath, x, y):
     im = Image.open(filepath, 'r')
@@ -37,20 +39,31 @@ def resize_image(filepath, x, y):
     im.save("tmp.jpg", "JPEG")
     return "tmp.jpg"
 
+
 def floyd_steinberg_effect(image, x, y, quant_err, coef):
     for i in range(3):
         image[x][y][i] += quant_err[i] * coef
         image[x][y][i] = round(max(0, min(255, image[x][y][i])))
 
+
 def valid_idx(x, y, w, h):
-    return x >= 0 and x < w and y >= 0 and y < h
+    return 0 <= x < w and y >= 0 and y < h
+
 
 def iterate_neighbors(x, y, w, h):
-    if valid_idx(x+1, y  , w, h): yield (x+1, y  , 7/16)
-    if valid_idx(x  , y+1, w, h): yield (x  , y+1, 5/16)
-    if valid_idx(x+1, y+1, w, h): yield (x+1, y+1, 1/16)
-    if valid_idx(x-1, y+1, w, h): yield (x-1, y+1, 3/16)
-  
+    if valid_idx(x + 1, y, w, h):
+        yield x + 1, y, 7 / 16
+
+    if valid_idx(x, y + 1, w, h):
+        yield x, y + 1, 5 / 16
+
+    if valid_idx(x + 1, y + 1, w, h):
+        yield x + 1, y + 1, 1 / 16
+
+    if valid_idx(x - 1, y + 1, w, h):
+        yield x - 1, y + 1, 3 / 16
+
+
 def process_image(pixels, w, h):
     tree, dmcs, idxs = get_dmc_tree()
 
@@ -60,7 +73,7 @@ def process_image(pixels, w, h):
     bar = ChargingBar("Processed", max=h)
     t0 = time.time()
 
-    #ts = []
+    # ts = []
 
     for y in range(h):
         for x in range(w):
@@ -72,17 +85,14 @@ def process_image(pixels, w, h):
             # if thread not in ts:
             #     ts.append(thread)
 
-            quant_error = [ (image[x][y][i] - rgb[i]) for i in range(3) ]
+            quant_error = [(image[x][y][i] - rgb[i]) for i in range(3)]
             for nx, ny, coef in iterate_neighbors(x, y, w, h):
                 floyd_steinberg_effect(image, nx, ny, quant_error, coef)
         bar.next()
 
     print("\nTime spent: ", round(time.time() - t0, 2))
-    #print("Distinct threads used: ", len(ts))
+    # print("Distinct threads used: ", len(ts))
 
     threads = np.array_split(threads, w)
 
     return image.transpose(1, 0, 2), threads
-    
-
-    
