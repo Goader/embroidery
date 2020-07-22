@@ -21,6 +21,7 @@ def extend_xtimes(image, x):
 
     return new_image2
 
+
 def draw_icon(filepath, image, x, y):
     icon = cv2.imread(filepath, -1)
 
@@ -36,30 +37,30 @@ def draw_icon(filepath, image, x, y):
 
     return image
 
-def new_square_index(i, j):
-    return i * 172, j * 172
 
-def old_square_index(i, j):
-    return i * 170, j * 170
+def multiply_index(i, j, multiplier):
+    return i * multiplier, j * multiplier
+
 
 def draw_lines(image):
     h, w = len(image), len(image[0])
-    new_h, new_w = h + 2*((h - 1)//170), w + 2*((w - 1)//170)
+    new_h, new_w = h + 2 * ((h - 1) // 170), w + 2 * ((w - 1) // 170)
     new_image = np.zeros((new_h, new_w, 3))
 
     for i in range(ceil(h / 170)):
         for j in range(ceil(w / 170)):
-            y1, x1 = new_square_index(i, j)
-            y2, x2 =    y1 + 170 if y1 + 170 < new_h else new_h, \
-                        x1 + 170 if x1 + 170 < new_w else new_w
+            y1, x1 = multiply_index(i, j, 172)
+            y2, x2 = y1 + 170 if y1 + 170 < new_h else new_h, \
+                     x1 + 170 if x1 + 170 < new_w else new_w
 
-            old_y1, old_x1 = old_square_index(i, j)
-            old_y2, old_x2 =    old_y1 + 170 if old_y1 + 170 < h else h, \
-                                old_x1 + 170 if old_x1 + 170 < w else w
+            old_y1, old_x1 = multiply_index(i, j, 170)
+            old_y2, old_x2 = old_y1 + 170 if old_y1 + 170 < h else h, \
+                             old_x1 + 170 if old_x1 + 170 < w else w
 
             new_image[y1:y2, x1:x2] = image[old_y1:old_y2, old_x1:old_x2]
 
     return new_image
+
 
 def draw_scheme(image, threads):
     image = extend_xtimes(image, 17)
@@ -67,9 +68,9 @@ def draw_scheme(image, threads):
 
     for i in range(0, h, 17):
         for j in range(0, w, 17):
-            image = draw_icon('icons/test.png',   image, j + 3, i + 3) # icons will be changed
-            image = draw_icon('icons/border.png', image, j, i) # can be added to icons not to waste time
-                                            
+            image = draw_icon('icons/test.png', image, j + 3, i + 3)  # icons will be changed
+            image = draw_icon('icons/border.png', image, j, i)  # can be added to icons not to waste time
+
     image = draw_lines(image)
 
     return image
