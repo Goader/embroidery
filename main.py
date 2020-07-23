@@ -23,14 +23,17 @@ if __name__ == "__main__":
 
         image, threads = process_image(pixels, w, h)
 
-        #visualize(image, address)
-        save_image(image, address)
+        #visualize(image, address, im_type='edited')
+        save_image(image, address, im_type='edited')
 
         os.remove("tmp.jpg")
 
         scheme = draw_scheme(image, threads)
 
-        visualize(scheme, address, im_type='s')
+        visualize(scheme, address, im_type='scheme')
     
     except KeyboardInterrupt:
+        if os.path.exists("tmp.jpg"):
+            os.remove("tmp.jpg")
         exit()
+

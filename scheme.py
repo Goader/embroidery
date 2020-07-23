@@ -1,7 +1,9 @@
 from visual import show_image, save_image, visualize
 from cv2 import cv2
 from math import ceil
+# from progress.bar import ChargingBar
 import numpy as np
+# import time
 
 
 def extend_xtimes(image, x):
@@ -42,20 +44,20 @@ def multiply_index(i, j, multiplier):
     return i * multiplier, j * multiplier
 
 
-def draw_lines(image):
+def draw_lines(image, factor):
     h, w = len(image), len(image[0])
-    new_h, new_w = h + 2 * ((h - 1) // 170), w + 2 * ((w - 1) // 170)
+    new_h, new_w = h + 2 * ((h-1) // (10*factor)), w + 2 * ((w-1) // (10*factor))
     new_image = np.zeros((new_h, new_w, 3))
 
-    for i in range(ceil(h / 170)):
-        for j in range(ceil(w / 170)):
-            y1, x1 = multiply_index(i, j, 172)
-            y2, x2 = y1 + 170 if y1 + 170 < new_h else new_h, \
-                     x1 + 170 if x1 + 170 < new_w else new_w
+    for i in range(ceil(h / 10*factor)):
+        for j in range(ceil(w / 10*factor)):
+            y1, x1 = multiply_index(i, j, 10*factor + 2)
+            y2, x2 = y1 + 10*factor if y1 + 10*factor < new_h else new_h, \
+                     x1 + 10*factor if x1 + 10*factor < new_w else new_w
 
-            old_y1, old_x1 = multiply_index(i, j, 170)
-            old_y2, old_x2 = old_y1 + 170 if old_y1 + 170 < h else h, \
-                             old_x1 + 170 if old_x1 + 170 < w else w
+            old_y1, old_x1 = multiply_index(i, j, 10*factor)
+            old_y2, old_x2 = old_y1 + 10*factor if old_y1 + 10*factor < h else h, \
+                             old_x1 + 10*factor if old_x1 + 10*factor < w else w
 
             new_image[y1:y2, x1:x2] = image[old_y1:old_y2, old_x1:old_x2]
 
@@ -63,14 +65,15 @@ def draw_lines(image):
 
 
 def draw_scheme(image, threads):
-    image = extend_xtimes(image, 17)
+    factor = 32
+    image = extend_xtimes(image, factor)
     h, w = len(image), len(image[0])
 
-    for i in range(0, h, 17):
-        for j in range(0, w, 17):
-            image = draw_icon('icons/test.png', image, j + 3, i + 3)  # icons will be changed
-            image = draw_icon('icons/border.png', image, j, i)  # can be added to icons not to waste time
+    for i in range(0, h, factor):
+        for j in range(0, w, factor):
+            image = draw_icon('icons/test32.png', image, j, i)  # icons will be changed
+            image = draw_icon('icons/border32.png', image, j, i)  # can be added to icons not to waste time
 
-    image = draw_lines(image)
+    image = draw_lines(image, factor)
 
     return image
