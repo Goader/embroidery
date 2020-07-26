@@ -25,12 +25,14 @@ def get_image(filepath):
     return pixels, (width, height)
 
 
+# Generates special name for the processed image in the form name_edited.jpg
 def generate_new_name(filepath):
     return filepath[:filepath.rfind(".")] + "_edited.jpg"
 
 
-def generate_scheme_name(filepath):
-    return "schemes" + filepath[filepath.rfind("/"):]
+# Generates a filepath to save the created pattern
+def generate_pattern_name(filepath):
+    return "patterns" + filepath[filepath.rfind("/"):]
 
 
 def resize_image(filepath, x, y):
@@ -40,6 +42,7 @@ def resize_image(filepath, x, y):
     return "tmp.jpg"
 
 
+# Applies Floyd Steinberg effect on the particular pixel
 def floyd_steinberg_effect(image, x, y, quant_err, coef):
     for i in range(3):
         image[x][y][i] += quant_err[i] * coef
@@ -50,6 +53,8 @@ def valid_idx(x, y, w, h):
     return 0 <= x < w and y >= 0 and y < h
 
 
+# Iterates neighbors with the given coefficient for 
+# Floyd Steinberg's effect
 def iterate_neighbors(x, y, w, h):
     if valid_idx(x + 1, y, w, h):
         yield x + 1, y, 7 / 16
@@ -64,6 +69,7 @@ def iterate_neighbors(x, y, w, h):
         yield x - 1, y + 1, 3 / 16
 
 
+# Selecting appropriate threads
 def process_image(pixels, w, h):
     tree, dmcs, idxs = get_dmc_tree()
 
@@ -77,14 +83,17 @@ def process_image(pixels, w, h):
 
     for y in range(h):
         for x in range(w):
+            # Getting thread and its RGB tuple
             thread, rgb = get_thread(image[x][y], tree, idxs, dmcs)
             threads.append(thread)
 
+            # Recreating the output image
             image[x][y] = rgb
 
             # if thread not in ts:
             #     ts.append(thread)
 
+            # Applying Floyd Steinberg's algorithm, by affecting neighbors
             quant_error = [(image[x][y][i] - rgb[i]) for i in range(3)]
             for nx, ny, coef in iterate_neighbors(x, y, w, h):
                 floyd_steinberg_effect(image, nx, ny, quant_error, coef)

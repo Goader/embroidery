@@ -8,6 +8,7 @@ def RGB_to_HEX(rgb):
     return "%02x%02x%02x" % rgb
 
 
+# Special metric based on human's sensitivity to red, green and blue
 def dist(rgbx, rgby):
     dR = rgbx[0] - rgby[0]
     dG = rgbx[1] - rgby[1]
@@ -19,6 +20,7 @@ def dist(rgbx, rgby):
         return 3 * dR * dR + 4 * dG * dG + 2 * dB * dB
 
 
+# Extracts all the threads stored in dmc.json as the dictionary
 def get_dmcs():
     with open("dmc.json", "r") as to_read:
         dmcs = json.load(to_read)
@@ -26,6 +28,7 @@ def get_dmcs():
         return dict(dmcs)
 
 
+# Creates the Ball Tree with already inserted threads
 def get_dmc_tree():
     metric = DistanceMetric.get_metric("pyfunc", func=dist)
     #metric = DistanceMetric.get_metric('euclidean')
@@ -36,6 +39,7 @@ def get_dmc_tree():
     return tree, dmcs, idxs
 
 
+# Returns the most appropriate thread using the Ball Tree created above
 def get_thread(rgb, tree, idxs, dmcs):
     idx = tree.query(np.array([rgb]), return_distance=False)
     rgb = idxs[idx[0][0]]

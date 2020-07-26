@@ -1,5 +1,5 @@
 from PIL import Image
-from image_proc import generate_new_name, generate_scheme_name
+from image_proc import generate_new_name, generate_pattern_name
 import numpy as np
 
 
@@ -10,8 +10,8 @@ def visualize(image, filepath, im_type='image'):
     
     if im_type == 'edited':
         new_image.save(generate_new_name(filepath))
-    elif im_type == 'scheme':
-        new_image.save(generate_scheme_name(filepath))
+    elif im_type == 'pattern':
+        new_image.save(generate_pattern_name(filepath))
     else:
         new_image.save(filepath)
 
@@ -28,7 +28,7 @@ def save_image(image, filepath, im_type='image'):
     
     if im_type == 'edited':
         new_image.save(generate_new_name(filepath))
-    elif im_type == 'scheme':
-        new_image.save(generate_scheme_name(filepath))
+    elif im_type == 'pattern':
+        new_image.save(generate_pattern_name(filepath))
     else:
         new_image.save(filepath)
