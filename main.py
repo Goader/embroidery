@@ -43,7 +43,7 @@ if __name__ == "__main__":
         # Selecting existing threads for every pixel
         image, threads = process_image(pixels, w, h)
 
-        #visualize(image, address, im_type='edited')
+        # visualize(image, address, im_type='edited')
         save_image(image, address, im_type='edited')
 
         os.remove("tmp.jpg")

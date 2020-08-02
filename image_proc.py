@@ -1,6 +1,5 @@
 from color_tree import get_thread, get_dmc_tree
 from PIL import Image
-from progress.bar import ChargingBar
 import numpy as np
 import time
 
@@ -76,7 +75,6 @@ def process_image(pixels, w, h):
     image = pixels
     threads = []
 
-    bar = ChargingBar("Processed", max=h)
     t0 = time.time()
 
     # ts = []
@@ -97,7 +95,6 @@ def process_image(pixels, w, h):
             quant_error = [(image[x][y][i] - rgb[i]) for i in range(3)]
             for nx, ny, coef in iterate_neighbors(x, y, w, h):
                 floyd_steinberg_effect(image, nx, ny, quant_error, coef)
-        bar.next()
 
     print("\nTime spent: ", round(time.time() - t0, 2))
     # print("Distinct threads used: ", len(ts))
