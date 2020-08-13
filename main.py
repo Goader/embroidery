@@ -1,6 +1,6 @@
 from image_proc import get_image, resize_image, process_image
 from pattern import draw_pattern
-from visual import visualize, save_image
+from scripts.visual import visualize, save_image
 import numpy as np
 import os
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
         pixels, size = get_image(new_address)
         pixels = np.array(pixels)
-        pixels = pixels.transpose(1, 0, 2)
+        pixels = pixels.transpose((1, 0, 2))
         w, h = size
 
         if w != x or h != y:

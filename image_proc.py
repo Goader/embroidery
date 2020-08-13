@@ -24,16 +24,6 @@ def get_image(filepath):
     return pixels, (width, height)
 
 
-# Generates special name for the processed image in the form name_edited.jpg
-def generate_new_name(filepath):
-    return filepath[:filepath.rfind(".")] + "_edited.jpg"
-
-
-# Generates a filepath to save the created pattern
-def generate_pattern_name(filepath):
-    return "patterns" + filepath[filepath.rfind("/"):]
-
-
 def resize_image(filepath, x, y):
     im = Image.open(filepath, 'r')
     im = im.resize((x, y))

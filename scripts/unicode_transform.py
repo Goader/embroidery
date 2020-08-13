@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from visual import save_image
+from scripts.visual import save_image
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
@@ -35,6 +35,6 @@ def transform_unicode(unicode_symb):
     filepath = 'icons/' + str(ord(unicode_symb)) + '.jpg'
     save_image(img, filepath)
 
-transform_unicode('▧')
+transform_unicode('◐')
 
 # ⇔ ▰ ▲ ◐ ◈ ◉ ◤ ▣ ▧
