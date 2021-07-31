@@ -1,5 +1,5 @@
-from image_proc import get_image, resize_image, process_image
-from pattern import draw_pattern
+from src.image_proc import get_image, resize_image, process_image
+from src.pattern import draw_pattern
 from scripts.visual import visualize, save_image
 import numpy as np
 import os

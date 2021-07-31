@@ -1,4 +1,6 @@
 import json
+import os
+
 
 dmcs = [["Ecru", "Ecru", 240, 234, 218],
         ["B5200", "Snow White", 255, 255, 255],
@@ -457,17 +459,19 @@ dmcs = [["Ecru", "Ecru", 240, 234, 218],
 
 
 def RGB_to_HEX(rgb):
-    return "%02x%02x%02x" % rgb
+    return '%02x%02x%02x' % rgb
 
 
-with open("dmc.json", "w") as to_write:
-    total_dict = {}
+if __name__ == '__main__':
+    prj_path = os.path.dirname(os.path.dirname(__file__))
+    with open(os.path.join(prj_path, 'src', 'dmc.json'), 'w') as to_write:
+        total_dict = {}
 
-    for dmc in dmcs:
-        tmp_dict = {"name": dmc[1],
-                    "number": dmc[0],
-                    "rgb": (dmc[2], dmc[3], dmc[4])}
-        total_dict.update({RGB_to_HEX((dmc[2], dmc[3], dmc[4])): tmp_dict})
+        for dmc in dmcs:
+            tmp_dict = {'name': dmc[1],
+                        'number': dmc[0],
+                        'rgb': (dmc[2], dmc[3], dmc[4])}
+            total_dict.update({RGB_to_HEX((dmc[2], dmc[3], dmc[4])): tmp_dict})
 
-    json.dump(total_dict, to_write, indent=4)
-    to_write.close()
+        json.dump(total_dict, to_write, indent=4)
+        to_write.close()

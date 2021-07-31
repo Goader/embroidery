@@ -1,5 +1,6 @@
 from PIL import Image
 import numpy as np
+import os
 
 
 # Generates special name for the processed image in the form name_edited.jpg
@@ -9,7 +10,8 @@ def generate_new_name(filepath):
 
 # Generates a filepath to save the created pattern
 def generate_pattern_name(filepath):
-    return "patterns" + filepath[filepath.rfind("/"):]
+    prj_path = os.path.dirname(os.path.dirname(__file__))
+    return os.path.join(prj_path, 'patterns', filepath[filepath.rfind("/") + 1:])
 
 
 def visualize(image, filepath, im_type='image'):

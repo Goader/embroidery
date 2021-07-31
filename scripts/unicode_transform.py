@@ -2,14 +2,18 @@ from __future__ import unicode_literals
 from visual import save_image
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
+import os
 
 
-h = w = 32
-font = ImageFont.truetype(r'..\fonts\ARIALUNI.TTF', size=26)
+def transform_unicode(unicode_symb, return_array=False, flag=0):
+    h = w = 32
+    prj_path = os.path.dirname(os.path.dirname(__file__))
+    font_path = os.path.join(prj_path, 'fonts', 'ARIALUNI.TTF')
+    font = ImageFont.truetype(font_path, size=26)
+    if flag != 1:
+        no_symb = transform_unicode(chr(0), return_array=True, flag=1)
 
-
-def transform_unicode(unicode_symb, return_array=False):
-    img = Image.new('RGB', (w, h), (255, 255, 255))
+    img = Image.new('RGBA', (w, h), (255, 255, 255, 0))
     new_img = ImageDraw.Draw(img)
 
     icon_w, icon_h = new_img.textsize(unicode_symb, font)
@@ -17,16 +21,13 @@ def transform_unicode(unicode_symb, return_array=False):
     new_img.text(coords, unicode_symb, fill=(0, 0, 0), font=font)
 
     img = np.array(img.getdata())
-    img = np.reshape(img, (h, w, 3))
+    img = np.reshape(img, (h, w, 4))
     if return_array:
         return img
-    if np.all(img == no_symb):
+    if flag != 1 and np.all(img == no_symb):
         return
-    filepath = '../icons/' + str(ord(unicode_symb)) + '.jpg'
+    filepath = os.path.join(prj_path, 'icons', 'generated', str(ord(unicode_symb)) + '.png')
     save_image(img, filepath)
-
-
-no_symb = transform_unicode(chr(0), return_array=True)
 
 
 def get_icons(start=0, end=1114111, step=1):
@@ -34,6 +35,7 @@ def get_icons(start=0, end=1114111, step=1):
         transform_unicode(chr(i))
 
 
-get_icons(start=1000, end=10000)
+if __name__ == '__main__':
+    get_icons(start=40, end=10000)
 
 # ⇔ ▰ ▲ ◐ ◈ ◉ ◤ ▣ ▧
