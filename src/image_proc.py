@@ -86,4 +86,4 @@ def process_image(pixels, w, h):
 
     threads = np.array(np.array_split(threads, h))
 
-    return image.transpose(1, 0, 2), threads
+    return image.transpose(1, 0, 2), np.array(threads)

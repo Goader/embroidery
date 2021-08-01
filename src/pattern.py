@@ -1,6 +1,6 @@
 from cv2 import cv2
 from collections import Counter
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 from scipy.fftpack import dct
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
@@ -109,7 +109,54 @@ def draw_pattern(image, threads):
                         alpha * icon[y_offset + 1, x_offset + 1, :3]
                         + rgb * (1 - alpha))
 
-    # TODO based on `icons` create a mapping document
-
     print("\nTime spent: ", round(time.time() - t0, 2))
-    return pattern
+    return pattern, icons
+
+
+def draw_mapping(icons, threads):
+    icons_count = len(icons)
+
+    h_line = 36
+    h = icons_count * 36
+    w = 300
+
+    prj_path = os.path.dirname(os.path.dirname(__file__))
+    font_path = os.path.join(prj_path, 'fonts', 'arial.ttf')
+    font = ImageFont.truetype(font_path, size=24)
+
+    img = Image.new('RGBA', (w, h), (255, 255, 255, 255))
+    new_img = ImageDraw.Draw(img)
+
+    for i, (number, icon) in enumerate(icons.items()):
+        text = f'{number}'
+
+        icon_w, icon_h = new_img.textsize(text, font)
+        coords = (50, h_line * i + (h_line-icon_h) // 2)
+        new_img.text(coords, text, fill=(0, 0, 0), font=font)
+
+
+    img = np.array(img)
+
+    def find_rgb(number):
+        for thread in threads.flatten():
+            if number == thread['number']:
+                return thread['rgb']
+        raise ValueError(f'No thread with number {number}')
+
+    icon_h, icon_w = 32, 32
+    for i, (number, icon_) in enumerate(icons.items()):
+        r, g, b = find_rgb(number)
+        icon = np.array(Image.new('RGBA', (icon_w, icon_h), (r, g, b, 255)))
+        alpha = icon_[:, :, 3:4]
+
+        dark = not bool(np.mean([r, g, b]) // 128)
+        if dark:
+            icon_[:, :, :3] = 1 - icon_[:, :, :3]
+
+        icon = alpha * 255 * icon_ + (1 - alpha) * icon
+        icon = icon.astype(np.uint8)
+
+        coords = (w - 50 - icon_w, h_line * i + (h_line - icon_h) // 2)
+        img[coords[1]:coords[1]+icon_h, coords[0]:coords[0]+icon_w, :] = icon
+
+    return img

@@ -14,6 +14,13 @@ def generate_pattern_name(filepath):
     return os.path.join(prj_path, 'patterns', filepath[filepath.rfind("/") + 1:])
 
 
+# Generates a filepath to save the created mapping
+def generate_mapping_name(filepath):
+    prj_path = os.path.dirname(os.path.dirname(__file__))
+    name = filepath[filepath.rfind("/")+1:].split('.')[0] + '.png'
+    return os.path.join(prj_path, 'mappings', name)
+
+
 def visualize(image, filepath, im_type='image'):
     image = np.array(image, dtype=np.uint8)
     new_image = Image.fromarray(image)
@@ -22,7 +29,9 @@ def visualize(image, filepath, im_type='image'):
     if im_type == 'edited':
         new_image.save(generate_new_name(filepath))
     elif im_type == 'pattern':
-        new_image.save(generate_pattern_name(filepath))
+        new_image.save(generate_pattern_name(filepath))    
+    elif im_type == 'mapping':
+        new_image.save(generate_mapping_name(filepath))
     else:
         new_image.save(filepath)
 
@@ -41,5 +50,7 @@ def save_image(image, filepath, im_type='image'):
         new_image.save(generate_new_name(filepath))
     elif im_type == 'pattern':
         new_image.save(generate_pattern_name(filepath))
+    elif im_type == 'mapping':
+        new_image.save(generate_mapping_name(filepath))
     else:
         new_image.save(filepath)

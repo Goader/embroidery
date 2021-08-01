@@ -1,5 +1,5 @@
 from src.image_proc import get_image, resize_image, process_image
-from src.pattern import draw_pattern
+from src.pattern import draw_mapping, draw_pattern
 from scripts.visual import visualize, save_image
 import numpy as np
 import os
@@ -49,9 +49,12 @@ if __name__ == "__main__":
         os.remove("tmp.jpg")
 
         # Generating the pattern based on the selected threads
-        pattern = draw_pattern(image, threads)
+        pattern, icons = draw_pattern(image, threads)
+
+        mapping = draw_mapping(icons, threads)
 
         visualize(pattern, address, im_type='pattern')
+        visualize(mapping, address, im_type='mapping')
     
     except KeyboardInterrupt:
         if os.path.exists("tmp.jpg"):
