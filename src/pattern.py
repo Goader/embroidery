@@ -96,11 +96,15 @@ def draw_pattern(image, threads):
         for x, rgb, thread in zip(range(w), image[y], threads[y]):
             new_x = x * factor + (x // 10) * 2 + 1
             
-            icon = icons[thread['number']]
+            icon = (np.copy(icons[thread['number']]) * 255).astype(np.uint8)
+            dark = not bool(np.mean(rgb[:3]) // 128)
+
+            if dark:
+                icon[:, :, :3] = 255 - icon[:, :, :3]
 
             for y_offset in range(factor - 2):
                 for x_offset in range(factor - 2):
-                    alpha = icon[y_offset + 1, x_offset + 1, 3]
+                    alpha = icon[y_offset + 1, x_offset + 1, 3] / 255
                     pattern[new_y + y_offset, new_x + x_offset] = (
                         alpha * icon[y_offset + 1, x_offset + 1, :3]
                         + rgb * (1 - alpha))
